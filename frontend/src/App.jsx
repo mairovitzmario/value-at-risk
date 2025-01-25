@@ -11,15 +11,19 @@ import StocksForm from './components/StocksForm/StocksForm';
 import { useStocks } from './contexts/StocksContext';
 import { fetchVaRCalculation } from './utils/fetch_api';
 import ShowResults from './components/ShowResults/ShowResults';
+import { useViewportSize } from '@mantine/hooks';
 
 
 function App() {
 
-  const { stocks, resetStocks } = useStocks();
+  const { stocks } = useStocks();
   const [dateValue, setDateValue] = useState();
   const [confidenceLevel, setConfidenceLevel] = useState(95);
 
-  const processData = () => {
+  const { width } = useViewportSize();
+
+
+  const parseDataToPayload = () => {
     const stockTickers = stocks.map(stock => stock.ticker);
     let stockAmounts = stocks.map(stock => parseFloat(stock.amount));
     const initial_investment = stockAmounts.reduce((sum, amount) => sum + amount, 0);
@@ -35,7 +39,7 @@ function App() {
       "initial_investment": initial_investment,
       "confidence_level": confidence_level
     }
-
+    console.log(payload)
     return payload;
   }
 
@@ -44,8 +48,7 @@ function App() {
     <MantineProvider theme={{ colorScheme: 'dark' }} forceColorScheme='dark' withGlobalStyles withNormalizeCSS>
       <div className='wrapper'>
 
-
-        <Title order={1} size={'4rem'}>Value-at-Risk</Title>
+        <Title order={1} size={width < 450 ? '3rem' : '4rem'}>Value-at-Risk</Title>
 
         <Space h='xl' />
 
@@ -83,7 +86,7 @@ function App() {
           <Space h='xl' />
           <Space h='xl' />
 
-          <ShowResults payload={processData()} />
+          <ShowResults payload={parseDataToPayload()} />
         </form>
 
       </div>

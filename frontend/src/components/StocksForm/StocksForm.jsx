@@ -7,6 +7,8 @@ import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 import { useStocks } from '../../contexts/StocksContext';
 import useComponentWidth from '../../hooks/useComponentWidth';
 import { fetchTickerValidation } from '../../utils/fetch_api';
+import { useViewportSize } from '@mantine/hooks';
+import React from 'react';
 
 
 
@@ -15,8 +17,18 @@ function StocksForm() {
   const [stockTicker, setStockTicker] = useState('')
   const [stockAmount, setStockAmount] = useState('')
 
+  const { width } = useViewportSize();
+  const tickerInputRef = useRef(null);
+
+  useEffect(() => {
+    if (stockTicker === '') {
+      tickerInputRef.current.focus();
+    }
+  }, [stockTicker]);
+
   function onStockAdd() {
     const newStock = { 'ticker': stockTicker, 'amount': stockAmount }
+
     addStock(newStock);
     setStockTicker('');
     setStockAmount('');
@@ -37,6 +49,8 @@ function StocksForm() {
             <Group justify='space-between'>
 
               <TextInput
+                miw={width < 530 ? '100%' : 'auto'}
+                ref={tickerInputRef}
                 value={stockTicker}
                 onChange={(event) => setStockTicker(event.currentTarget.value)}
                 size="md"
@@ -45,6 +59,7 @@ function StocksForm() {
               />
 
               <NumberInput
+                miw={width < 530 ? '100%' : 'auto'}
                 value={stockAmount}
                 onChange={setStockAmount}
                 placeholder="Invested amount"

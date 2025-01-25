@@ -6,6 +6,7 @@ import { fetchVaRCalculation } from '../../utils/fetch_api';
 function ShowResults({ payload }) {
     const [opened, { open, close }] = useDisclosure(false);
     const [results, setResults] = useState();
+    const [isError, setIsError] = useState(false);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -18,6 +19,7 @@ function ShowResults({ payload }) {
                     setResults(data);
                 } catch (error) {
                     console.error('Error fetching VaR calculation:', error);
+                    setIsError(true);
                 }
             }
         };
@@ -45,16 +47,23 @@ function ShowResults({ payload }) {
         <>
             <Space h='md' />
             <Title order={2} size={'2rem'}>Historical VaR</Title>
-            <Text>{results?.historical?.absolute ? `-\$${results.historical.absolute.toFixed(2)} or -${results.historical.relative.toFixed(2)}% of your portfolio` : 'Data not available'}</Text>
+            <Text>{`-\$${results.historical.absolute.toFixed(2)} or -${results.historical.relative.toFixed(2)}% of your portfolio`}</Text>
 
             <Space h='xl' />
             <Title order={2} size={'2rem'}>Parametric VaR</Title>
-            <Text>{results?.historical?.absolute ? `-\$${results.parametric.absolute.toFixed(2)} or -${results.parametric.relative.toFixed(2)}% of your portfolio` : 'Data not available'}</Text>
+            <Text>{`-\$${results.parametric.absolute.toFixed(2)} or -${results.parametric.relative.toFixed(2)}% of your portfolio`}</Text>
             <Space h='xl' />
             <Title order={2} size={'2rem'}>Monte-Carlo VaR</Title>
-            <Text>{results?.historical?.absolute ? `-\$${results.monte_carlo.absolute.toFixed(2)} or -${results.monte_carlo.relative.toFixed(2)}% of your portfolio` : 'Data not available'}</Text>
+            <Text>{`-\$${results.monte_carlo.absolute.toFixed(2)} or -${results.monte_carlo.relative.toFixed(2)}% of your portfolio`}</Text>
             <Space h='md' />
         </>
+    )
+
+    const ErrorModal = () => (
+        <>
+
+        </>
+
     )
 
     return (
