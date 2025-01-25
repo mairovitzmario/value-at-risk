@@ -64,9 +64,7 @@ class VaR:
         kept = np.percentile(portResults, self.alpha * 100)
 
         absolute_mc_var = self.portofolio.initial_investment - kept
-        relative_mc_var = (
-            self.portofolio.initial_investment - absolute_mc_var
-        ) / self.portofolio.initial_investment
+        relative_mc_var = absolute_mc_var / self.portofolio.initial_investment
 
         return {
             "relative": relative_mc_var,
