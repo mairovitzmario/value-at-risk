@@ -47,14 +47,14 @@ function ShowResults({ payload }) {
         <>
             <Space h='md' />
             <Title order={2} size={'2rem'}>Historical VaR</Title>
-            <Text>{`-\$${results.historical.absolute.toFixed(2)} or -${results.historical.relative.toFixed(2)}% of your portfolio`}</Text>
+            <Text>{`-\$${results.historical.absolute.toFixed(2)} or -${(100 * results.historical.relative).toFixed(2)}% of your initial portfolio`}</Text>
 
             <Space h='xl' />
             <Title order={2} size={'2rem'}>Parametric VaR</Title>
-            <Text>{`-\$${results.parametric.absolute.toFixed(2)} or -${results.parametric.relative.toFixed(2)}% of your portfolio`}</Text>
+            <Text>{`-\$${results.parametric.absolute.toFixed(2)} or -${(100 * results.parametric.relative).toFixed(2)}% of your initial portfolio`}</Text>
             <Space h='xl' />
             <Title order={2} size={'2rem'}>Monte-Carlo VaR</Title>
-            <Text>{`-\$${results.monte_carlo.absolute.toFixed(2)} or -${results.monte_carlo.relative.toFixed(2)}% of your portfolio`}</Text>
+            <Text>{`-\$${results.monte_carlo.absolute.toFixed(2)} or -${(100 * results.monte_carlo.relative).toFixed(2)}% of your initial portfolio`}</Text>
             <Space h='md' />
         </>
     )

@@ -13,12 +13,20 @@ export const StocksProvider = ({ children }) => {
         setStocks((prev) => prev.filter((_, i) => i !== index));
     };
 
+    const editStock = (index, updatedFields) => {
+        setStocks((prev) =>
+            prev.map((stock, i) =>
+                i === index ? { ...stock, ...updatedFields } : stock
+            )
+        );
+    };
+
     const resetStocks = () => {
         setStocks([]);
     };
 
     return (
-        <StocksContext.Provider value={{ stocks: stocks, addStock: addStock, removeStock: removeStock, resetStocks: resetStocks }}>
+        <StocksContext.Provider value={{ stocks: stocks, addStock: addStock, removeStock: removeStock, editStock: editStock, resetStocks: resetStocks }}>
             {children}
         </StocksContext.Provider>
     );

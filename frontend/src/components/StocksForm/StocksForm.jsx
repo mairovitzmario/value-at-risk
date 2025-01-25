@@ -8,6 +8,7 @@ import { useStocks } from '../../contexts/StocksContext';
 import useComponentWidth from '../../hooks/useComponentWidth';
 import { fetchTickerValidation } from '../../utils/fetch_api';
 import { useViewportSize } from '@mantine/hooks';
+import StockChip from '../StockChip/StockChip';
 import React from 'react';
 
 
@@ -27,7 +28,7 @@ function StocksForm() {
   }, [stockTicker]);
 
   function onStockAdd() {
-    const newStock = { 'ticker': stockTicker, 'amount': stockAmount }
+    const newStock = { 'ticker': stockTicker, 'amount': stockAmount, 'state': 'loading' }
 
     addStock(newStock);
     setStockTicker('');
@@ -74,12 +75,7 @@ function StocksForm() {
           <Button variant="default" color="gray" size="md" onClick={onStockAdd}>Add stock</Button>
           <Group justify='center' maw={formWidth ? formWidth : 'auto'}>
             {stocks.map((stock, index) => (
-              <Chip
-                key={index}
-                label={`${stock.ticker} - $${stock.amount}`}
-                onDelete={() => removeStock(index)}
-                color='info'
-              />
+              <StockChip key={index} index={index} />
             ))}
           </Group>
         </Stack>

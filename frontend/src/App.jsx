@@ -39,7 +39,7 @@ function App() {
       "initial_investment": initial_investment,
       "confidence_level": confidence_level
     }
-    console.log(payload)
+    console.log('THIS IS THE PAYLOAD', payload)
     return payload;
   }
 
@@ -76,10 +76,14 @@ function App() {
           <Slider
             value={confidenceLevel}
             onChange={setConfidenceLevel}
+            min={90}
+            max={99}
             color="blue"
             size="lg"
             marks={[
+              { value: 90, label: '90%' },
               { value: 95, label: '95%' },
+              { value: 99, label: '99%' },
             ]}
           />
 
