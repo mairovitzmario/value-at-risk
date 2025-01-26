@@ -1,24 +1,32 @@
 import './StocksForm.css'
-import { useState, useEffect, useRef } from 'react';
+
+import React, { useState, useEffect, useRef } from 'react';
+
 import { Space, TextInput, NumberInput, Text, Button, Stack, Group, Input } from '@mantine/core';
+import { useViewportSize } from '@mantine/hooks';
+
 import Chip from '@mui/material/Chip'
 import ShowChartIcon from '@mui/icons-material/ShowChart';
 import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
+
+import StockChip from '../StockChip/StockChip';
+
+import { fetchTickerValidation } from '../../utils/fetch_api';
 import { useStocks } from '../../contexts/StocksContext';
 import useComponentWidth from '../../hooks/useComponentWidth';
-import { fetchTickerValidation } from '../../utils/fetch_api';
-import { useViewportSize } from '@mantine/hooks';
-import StockChip from '../StockChip/StockChip';
-import React from 'react';
+import useStocksFormValidation from '../../hooks/useStocksFormValidation';
+
 
 
 
 function StocksForm() {
-  const { stocks, addStock, removeStock } = useStocks();
+  const { stocks, addStock } = useStocks();
   const [stockTicker, setStockTicker] = useState('')
   const [stockAmount, setStockAmount] = useState('')
+  const { isTickerError, isAmountError, validateStocksForm } = useStocksFormValidation(stockTicker, stockAmount);
 
   const { width } = useViewportSize();
+  const [formWidth, formRef] = useComponentWidth();
   const tickerInputRef = useRef(null);
 
   useEffect(() => {
@@ -27,15 +35,18 @@ function StocksForm() {
     }
   }, [stockTicker]);
 
+
+
   function onStockAdd() {
-    const newStock = { 'ticker': stockTicker, 'amount': stockAmount, 'state': 'loading' }
+    if (!validateStocksForm()) return;
+
+    const newStock = { 'ticker': stockTicker.trim(), 'amount': stockAmount, 'state': 'loading' };
 
     addStock(newStock);
     setStockTicker('');
     setStockAmount('');
   }
 
-  const [formWidth, formRef] = useComponentWidth();
 
 
   return (
@@ -50,19 +61,22 @@ function StocksForm() {
             <Group justify='space-between'>
 
               <TextInput
-                miw={width < 530 ? '100%' : 'auto'}
+                error={isTickerError ? true : false}
                 ref={tickerInputRef}
                 value={stockTicker}
                 onChange={(event) => setStockTicker(event.currentTarget.value)}
+                miw={width < 530 ? '100%' : 'auto'}
                 size="md"
                 placeholder="Stock ticker"
                 leftSection={<ShowChartIcon />}
               />
 
               <NumberInput
-                miw={width < 530 ? '100%' : 'auto'}
+                error={isAmountError ? true : false}
+
                 value={stockAmount}
                 onChange={setStockAmount}
+                miw={width < 530 ? '100%' : 'auto'}
                 placeholder="Invested amount"
                 leftSection={<AttachMoneyIcon />}
                 size='md'

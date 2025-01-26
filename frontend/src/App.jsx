@@ -1,17 +1,22 @@
 import './App.css';
 import '@mantine/core/styles.css';
 import '@mantine/dates/styles.css';
+import '@mantine/notifications/styles.css';
 
 import React, { useState } from "react";
-import { Space, Input, NumberInput, MantineProvider, Title, Text, Slider, Button } from '@mantine/core';
+
+import { Space, MantineProvider, Title, Text, Slider, } from '@mantine/core';
+import { Notifications } from '@mantine/notifications';
 import { DateInput } from '@mantine/dates';
-import ShowChartIcon from '@mui/icons-material/ShowChart';
-import DateRangeIcon from '@mui/icons-material/DateRange';
-import StocksForm from './components/StocksForm/StocksForm';
-import { useStocks } from './contexts/StocksContext';
-import { fetchVaRCalculation } from './utils/fetch_api';
-import ShowResults from './components/ShowResults/ShowResults';
 import { useViewportSize } from '@mantine/hooks';
+
+import DateRangeIcon from '@mui/icons-material/DateRange';
+
+import StocksForm from './components/StocksForm/StocksForm';
+import ShowResults from './components/ShowResults/ShowResults';
+
+import { useStocks } from './contexts/StocksContext';
+import parseDataToPayload from './utils/parse_data_to_payload';
 
 
 function App() {
@@ -22,26 +27,6 @@ function App() {
 
   const { width } = useViewportSize();
 
-
-  const parseDataToPayload = () => {
-    const stockTickers = stocks.map(stock => stock.ticker);
-    let stockAmounts = stocks.map(stock => parseFloat(stock.amount));
-    const initial_investment = stockAmounts.reduce((sum, amount) => sum + amount, 0);
-    const weights = stockAmounts.map(amount => amount / initial_investment);
-    const confidence_level = confidenceLevel / 100
-    const currentDate = new Date();
-    const time = 1 + Math.ceil((dateValue - currentDate) / (1000 * 60 * 60 * 24));
-
-    const payload = {
-      "stocks": stockTickers,
-      "weights": weights,
-      "time": time,
-      "initial_investment": initial_investment,
-      "confidence_level": confidence_level
-    }
-    console.log('THIS IS THE PAYLOAD', payload)
-    return payload;
-  }
 
 
   return (
@@ -90,7 +75,7 @@ function App() {
           <Space h='xl' />
           <Space h='xl' />
 
-          <ShowResults payload={parseDataToPayload()} />
+          <ShowResults payload={parseDataToPayload(stocks, confidenceLevel, dateValue)} />
         </form>
 
       </div>
