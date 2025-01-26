@@ -5,11 +5,11 @@ import App from './App.jsx'
 import { StocksProvider } from './contexts/StocksContext.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
 
-    <StocksProvider>
-      <App />
-    </StocksProvider>
 
-  </StrictMode>,
+  <StocksProvider>
+    <App />
+  </StocksProvider>
+
+
 )

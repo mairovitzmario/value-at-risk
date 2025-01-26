@@ -9,6 +9,7 @@ import { Space, MantineProvider, Title, Text, Slider, } from '@mantine/core';
 import { Notifications } from '@mantine/notifications';
 import { DateInput } from '@mantine/dates';
 import { useViewportSize } from '@mantine/hooks';
+import { notifications } from '@mantine/notifications';
 
 import DateRangeIcon from '@mui/icons-material/DateRange';
 
@@ -31,6 +32,8 @@ function App() {
 
   return (
     <MantineProvider theme={{ colorScheme: 'dark' }} forceColorScheme='dark' withGlobalStyles withNormalizeCSS>
+      < Notifications />
+
       <div className='wrapper'>
 
         <Title order={1} size={width < 450 ? '3rem' : '4rem'}>Value-at-Risk</Title>
@@ -44,6 +47,7 @@ function App() {
           <Space h='xl' />
 
           <DateInput
+
             value={dateValue}
             onChange={setDateValue}
             minDate={new Date()}
@@ -79,6 +83,7 @@ function App() {
         </form>
 
       </div>
+
     </MantineProvider>
   );
 }

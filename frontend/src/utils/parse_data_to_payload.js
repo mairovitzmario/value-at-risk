@@ -14,7 +14,7 @@ const parseDataToPayload = (stocks, confidenceLevel, dateValue) => {
         "initial_investment": initial_investment,
         "confidence_level": confidence_level
     }
-    console.log('THIS IS THE PAYLOAD', payload)
+    console.log('PAYLOAD:', payload)
     return payload;
 }
 

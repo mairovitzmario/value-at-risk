@@ -2,6 +2,7 @@ import { Chip } from "@mui/material";
 import { useStocks } from "../../contexts/StocksContext";
 import { useState, useEffect } from "react";
 import { fetchTickerValidation } from "../../utils/fetch_api";
+import showErrorNotification from "../../utils/show_error_notification";
 
 function StockChip({ index }) {
     const { stocks, editStock, removeStock } = useStocks();
@@ -11,7 +12,7 @@ function StockChip({ index }) {
             const result = await fetchTickerValidation(stocks[index].ticker);
 
             if (result.error || result.data === false) {
-
+                showErrorNotification(`Ticker ${stocks[index].ticker} is not valid!`)
                 editStock(index, { state: 'error' });
             } else {
 
@@ -20,6 +21,8 @@ function StockChip({ index }) {
         };
 
         validateTicker();
+
+
     }, []);
 
     return (

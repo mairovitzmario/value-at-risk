@@ -5,6 +5,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Space, TextInput, NumberInput, Text, Button, Stack, Group, Input } from '@mantine/core';
 import { useViewportSize } from '@mantine/hooks';
 
+
 import Chip from '@mui/material/Chip'
 import ShowChartIcon from '@mui/icons-material/ShowChart';
 import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
@@ -15,6 +16,7 @@ import { fetchTickerValidation } from '../../utils/fetch_api';
 import { useStocks } from '../../contexts/StocksContext';
 import useComponentWidth from '../../hooks/useComponentWidth';
 import useStocksFormValidation from '../../hooks/useStocksFormValidation';
+import showErrorNotification from '../../utils/show_error_notification';
 
 
 
@@ -38,13 +40,17 @@ function StocksForm() {
 
 
   function onStockAdd() {
-    if (!validateStocksForm()) return;
+    if (!validateStocksForm()) {
+      showErrorNotification('Fill in the stock details!')
 
-    const newStock = { 'ticker': stockTicker.trim(), 'amount': stockAmount, 'state': 'loading' };
+    }
+    else {
+      const newStock = { 'ticker': stockTicker.trim(), 'amount': stockAmount, 'state': 'loading' };
 
-    addStock(newStock);
-    setStockTicker('');
-    setStockAmount('');
+      addStock(newStock);
+      setStockTicker('');
+      setStockAmount('');
+    }
   }
 
 
@@ -88,7 +94,7 @@ function StocksForm() {
 
           <Button variant="default" color="gray" size="md" onClick={onStockAdd}>Add stock</Button>
           <Group justify='center' maw={formWidth ? formWidth : 'auto'}>
-            {stocks.map((stock, index) => (
+            {stocks.map((_, index) => (
               <StockChip key={index} index={index} />
             ))}
           </Group>
