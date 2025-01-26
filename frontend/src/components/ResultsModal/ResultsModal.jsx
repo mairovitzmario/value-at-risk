@@ -3,8 +3,8 @@ import { useState, useContext, useEffect } from 'react';
 import { useDisclosure } from '@mantine/hooks';
 import { fetchVaRCalculation } from '../../utils/fetch_api';
 
-function ShowResults({ payload }) {
-    const [opened, { open, close }] = useDisclosure(false);
+function ResultsModal({ payload, opened, close }) {
+
     const [results, setResults] = useState();
     const [isError, setIsError] = useState(false);
 
@@ -75,10 +75,9 @@ function ShowResults({ payload }) {
                     <SuccessModal />
                 )}
             </Modal>
-            <Button fullWidth variant="filled" size="md" onClick={open}>Calculate VaR</Button>
         </>
 
     )
 }
 
-export default ShowResults;
+export default ResultsModal;

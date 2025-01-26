@@ -1,9 +1,9 @@
 import { notifications } from '@mantine/notifications';
 import ErrorIcon from '@mui/icons-material/Error';
 
-function showErrorNotification(customMessage) {
+function showErrorNotification(customMessage, timeOut = 3000) {
     notifications.show({
-        autoClose: 3000,
+        autoClose: timeOut,
         color: "red",
         title: 'Error!',
         message: customMessage,

@@ -1,11 +1,11 @@
 import { Chip } from "@mui/material";
-import { useStocks } from "../../contexts/StocksContext";
+import { useStocksContext } from "../../contexts/StocksContext";
 import { useState, useEffect } from "react";
 import { fetchTickerValidation } from "../../utils/fetch_api";
 import showErrorNotification from "../../utils/show_error_notification";
 
 function StockChip({ index }) {
-    const { stocks, editStock, removeStock } = useStocks();
+    const { stocks, editStock, removeStock } = useStocksContext();
 
     useEffect(() => {
         const validateTicker = async () => {

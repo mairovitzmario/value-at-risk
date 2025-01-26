@@ -1,4 +1,4 @@
-const parseDataToPayload = (stocks, confidenceLevel, dateValue) => {
+const parseDataToPayload = (stocks, dateValue, confidenceLevel) => {
     const stockTickers = stocks.map(stock => stock.ticker);
     let stockAmounts = stocks.map(stock => parseFloat(stock.amount));
     const initial_investment = stockAmounts.reduce((sum, amount) => sum + amount, 0);

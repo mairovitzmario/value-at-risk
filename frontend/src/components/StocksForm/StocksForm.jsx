@@ -13,38 +13,31 @@ import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 import StockChip from '../StockChip/StockChip';
 
 import { fetchTickerValidation } from '../../utils/fetch_api';
-import { useStocks } from '../../contexts/StocksContext';
+import { useStocksContext } from '../../contexts/StocksContext';
 import useComponentWidth from '../../hooks/useComponentWidth';
-import useStocksFormValidation from '../../hooks/useStocksFormValidation';
+import useFormValidation from '../../hooks/useFormValidation';
 import showErrorNotification from '../../utils/show_error_notification';
+import { useStocksFormContext } from '../../contexts/StocksFormContext';
 
 
 
 
 function StocksForm() {
-  const { stocks, addStock } = useStocks();
-  const [stockTicker, setStockTicker] = useState('')
-  const [stockAmount, setStockAmount] = useState('')
-  const { isTickerError, isAmountError, validateStocksForm } = useStocksFormValidation(stockTicker, stockAmount);
+  const { stocks, addStock } = useStocksContext();
+  const { stockTicker, setStockTicker, stockAmount, setStockAmount, tickerInputRef } = useStocksFormContext();
+  const { isTickerError, isAmountError, validateStocksForm } = useFormValidation(stockTicker, stockAmount);
 
   const { width } = useViewportSize();
   const [formWidth, formRef] = useComponentWidth();
-  const tickerInputRef = useRef(null);
 
-  useEffect(() => {
-    if (stockTicker === '') {
-      tickerInputRef.current.focus();
-    }
-  }, [stockTicker]);
+
 
 
 
   function onStockAdd() {
-    if (!validateStocksForm()) {
-      showErrorNotification('Fill in the stock details!')
+    const isFormValid = validateStocksForm();
 
-    }
-    else {
+    if (isFormValid) {
       const newStock = { 'ticker': stockTicker.trim(), 'amount': stockAmount, 'state': 'loading' };
 
       addStock(newStock);

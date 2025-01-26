@@ -5,29 +5,53 @@ import '@mantine/notifications/styles.css';
 
 import React, { useState } from "react";
 
-import { Space, MantineProvider, Title, Text, Slider, } from '@mantine/core';
+import { Space, MantineProvider, Title, Text, Slider, Button } from '@mantine/core';
 import { Notifications } from '@mantine/notifications';
 import { DateInput } from '@mantine/dates';
 import { useViewportSize } from '@mantine/hooks';
 import { notifications } from '@mantine/notifications';
+import { useDisclosure } from '@mantine/hooks';
 
 import DateRangeIcon from '@mui/icons-material/DateRange';
 
 import StocksForm from './components/StocksForm/StocksForm';
-import ShowResults from './components/ShowResults/ShowResults';
+import ResultsModal from './components/ResultsModal/ResultsModal';
 
-import { useStocks } from './contexts/StocksContext';
+import { useStocksContext } from './contexts/StocksContext';
 import parseDataToPayload from './utils/parse_data_to_payload';
+import { useStocksFormContext } from './contexts/StocksFormContext';
+import useFormValidation from './hooks/useFormValidation';
 
 
 function App() {
 
-  const { stocks } = useStocks();
-  const [dateValue, setDateValue] = useState();
+  const { stocks } = useStocksContext();
+  const { stockTicker, stockAmount } = useStocksFormContext();
+  const { validateMainForm } = useFormValidation(stockTicker, stockAmount);
+
+  const [dateValue, setDateValue] = useState(new Date());
   const [confidenceLevel, setConfidenceLevel] = useState(95);
+  const [result, setResult] = useState({});
+
+  const [openedResults, { open: openResults, close: closeResults }] = useDisclosure(false);
 
   const { width } = useViewportSize();
 
+  const onFormSubmit = () => {
+    console.log(stocks)
+    const isFormValid = validateMainForm(stocks);
+
+    if (isFormValid) {
+      const payload = parseDataToPayload(stocks, dateValue, confidenceLevel);
+      setResult(payload);
+      openResults();
+
+    }
+    else {
+
+    }
+
+  }
 
 
   return (
@@ -47,7 +71,6 @@ function App() {
           <Space h='xl' />
 
           <DateInput
-
             value={dateValue}
             onChange={setDateValue}
             minDate={new Date()}
@@ -79,7 +102,8 @@ function App() {
           <Space h='xl' />
           <Space h='xl' />
 
-          <ShowResults payload={parseDataToPayload(stocks, confidenceLevel, dateValue)} />
+          <Button fullWidth variant="filled" size="md" onClick={onFormSubmit}>Calculate VaR</Button>
+          <ResultsModal payload={result} close={closeResults} opened={openedResults} />
         </form>
 
       </div>

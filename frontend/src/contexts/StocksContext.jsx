@@ -4,6 +4,8 @@ const StocksContext = createContext();
 
 export const StocksProvider = ({ children }) => {
     const [stocks, setStocks] = useState([]);
+    const [stockTicker, setStockTicker] = useState('');
+    const [stockAmount, setStockAmount] = useState('');
 
     const addStock = (newObject) => {
         setStocks((prev) => [...prev, newObject]);
@@ -26,10 +28,10 @@ export const StocksProvider = ({ children }) => {
     };
 
     return (
-        <StocksContext.Provider value={{ stocks: stocks, addStock: addStock, removeStock: removeStock, editStock: editStock, resetStocks: resetStocks }}>
+        <StocksContext.Provider value={{ stocks, addStock, removeStock, editStock, resetStocks, }}>
             {children}
         </StocksContext.Provider>
     );
 };
 
-export const useStocks = () => useContext(StocksContext);
+export const useStocksContext = () => useContext(StocksContext);
