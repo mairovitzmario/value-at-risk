@@ -2,6 +2,7 @@ import { Modal, Button, ColorInput, Input, Space, Flex, Title, Loader, Skeleton,
 import { useState, useContext, useEffect } from 'react';
 import { useDisclosure } from '@mantine/hooks';
 import { fetchVaRCalculation } from '../../utils/fetch_api';
+import { formatAbsoluteVaR, formatRelativeVaR } from '../../utils/formatters';
 
 function ResultsModal({ payload, opened, close }) {
 
@@ -47,14 +48,21 @@ function ResultsModal({ payload, opened, close }) {
         <>
             <Space h='md' />
             <Title order={2} size={'2rem'}>Historical VaR</Title>
-            <Text>{`-\$${results.historical.absolute.toFixed(2)} or -${(100 * results.historical.relative).toFixed(2)}% of your initial portfolio`}</Text>
+            <Text>
+                {`${formatAbsoluteVaR(results.historical.absolute)} or ${formatRelativeVaR(results.historical.relative)} of your initial portfolio`}
+            </Text>
 
             <Space h='xl' />
             <Title order={2} size={'2rem'}>Parametric VaR</Title>
-            <Text>{`-\$${results.parametric.absolute.toFixed(2)} or -${(100 * results.parametric.relative).toFixed(2)}% of your initial portfolio`}</Text>
+            <Text>
+                {`${formatAbsoluteVaR(results.parametric.absolute)} or ${formatRelativeVaR(results.parametric.relative)} of your initial portfolio`}
+            </Text>
+
             <Space h='xl' />
             <Title order={2} size={'2rem'}>Monte-Carlo VaR</Title>
-            <Text>{`-\$${results.monte_carlo.absolute.toFixed(2)} or -${(100 * results.monte_carlo.relative).toFixed(2)}% of your initial portfolio`}</Text>
+            <Text>
+                {`${formatAbsoluteVaR(results.monte_carlo.absolute)} or ${formatRelativeVaR(results.monte_carlo.relative)} of your initial portfolio`}
+            </Text>
             <Space h='md' />
         </>
     )
