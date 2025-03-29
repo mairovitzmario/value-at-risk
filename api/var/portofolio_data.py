@@ -9,7 +9,7 @@ class PortofolioData:
     def __init__(self, stocks, weights, Time, initial_investment):
         self.stocks = stocks
         self.weights = np.array(weights)
-        self.Time = Time
+        self.Time = Time  # number of days over which the var is calculated
         self.initial_investment = initial_investment
         self.returns, self.mean_returns, self.cov_matrix = self.get_data(stocks)
 
@@ -19,6 +19,7 @@ class PortofolioData:
         start_date=dt.datetime.now() - dt.timedelta(days=800),
         end_date=dt.datetime.now(),
     ):
+        # Get historical data and calculate returns
         stock_data = yf.download(stocks)
         stock_data = stock_data.loc[
             (stock_data.index >= start_date) & (stock_data.index <= end_date)

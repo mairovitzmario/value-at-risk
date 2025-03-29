@@ -3,7 +3,10 @@ import numpy as np
 import datetime as dt
 import yfinance as yf
 from scipy.stats import norm, t
+
 from var.portofolio_data import PortofolioData
+
+# from portofolio_data import PortofolioData
 
 
 class VaR:
@@ -27,6 +30,7 @@ class VaR:
         expected_portofolio_return, expected_portofolio_std = (
             self.portofolio.get_expected_portofolio_performance()
         )
+
         p_var = (
             norm.ppf(self.confidence_level) * expected_portofolio_std
             - expected_portofolio_return
