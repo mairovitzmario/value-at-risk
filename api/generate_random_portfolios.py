@@ -141,7 +141,7 @@ def write_portfolios_to_json(portfolios, file_path):
 
 if __name__ == "__main__":
     # Generate 5 random portfolios
-    portfolios = generate_multiple_portfolios(5)
+    portfolios = generate_multiple_portfolios(20)
 
     # Print the portfolios in a formatted way
     print(json.dumps(portfolios, indent=4))

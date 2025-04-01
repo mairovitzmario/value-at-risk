@@ -1,486 +1,432 @@
 [
     {
         "stocks_list": [
-            "MU",
-            "ADBE",
-            "CRM",
-            "IBM",
-            "V",
-            "CMCSA",
-            "DIS",
-            "AAPL",
-            "INTC",
-            "AMD"
-        ],
-        "stocks_weights": [
-            0.030000000000000002,
-            0.104,
-            0.022,
-            0.047,
-            0.148,
-            0.104,
-            0.104,
-            0.122,
-            0.187,
-            0.132
-        ],
-        "initial_investment": 43072.88,
-        "time": 38,
-        "time_horizon": "medium_term",
-        "start_date": "2024-06-26"
-    },
-    {
-        "stocks_list": [
+            "CVX",
             "BAC",
-            "ADBE",
-            "JPM",
-            "AAPL",
-            "T",
-            "AMZN",
-            "ABT",
-            "PEP",
-            "INTC"
-        ],
-        "stocks_weights": [
-            0.16,
-            0.103,
-            0.047,
-            0.069,
-            0.208,
-            0.123,
-            0.085,
-            0.144,
-            0.061
-        ],
-        "initial_investment": 13432.77,
-        "time": 2,
-        "time_horizon": "short_term",
-        "start_date": "2023-09-11"
-    },
-    {
-        "stocks_list": [
-            "MSFT",
             "PFE",
-            "ORCL",
-            "V",
-            "VZ",
-            "CRM",
-            "ACN",
-            "CMCSA"
+            "NVDA",
+            "NFLX"
         ],
         "stocks_weights": [
-            0.058,
-            0.14,
+            0.191,
+            0.262,
             0.169,
-            0.117,
-            0.082,
-            0.178,
-            0.134,
-            0.122
+            0.23,
+            0.148
         ],
-        "initial_investment": 89968.97,
-        "time": 49,
-        "time_horizon": "medium_term",
-        "start_date": "2024-08-22"
+        "initial_investment": 69701.15,
+        "time": 220,
+        "start_date": "2024-03-02"
     },
     {
         "stocks_list": [
-            "JPM",
-            "AMD",
-            "GOOGL",
-            "PYPL",
+            "CMCSA",
+            "KO",
             "BAC",
-            "V",
-            "DIS",
-            "T"
-        ],
-        "stocks_weights": [
-            0.17,
-            0.203,
-            0.029,
-            0.097,
-            0.174,
-            0.063,
-            0.047,
-            0.217
-        ],
-        "initial_investment": 66848.49,
-        "time": 259,
-        "time_horizon": "long_term",
-        "start_date": "2023-10-21"
-    },
-    {
-        "stocks_list": [
-            "PYPL",
-            "IBM",
-            "AMD",
-            "AMZN",
-            "PFE",
-            "ABT"
-        ],
-        "stocks_weights": [
-            0.302,
-            0.047,
-            0.216,
-            0.085,
-            0.071,
-            0.279
-        ],
-        "initial_investment": 75693.74,
-        "time": 1,
-        "time_horizon": "short_term",
-        "start_date": "2024-06-01"
-    },
-    {
-        "stocks_list": [
-            "ACN",
-            "MU",
-            "TXN",
-            "JPM",
-            "AMZN",
-            "T",
-            "CRM",
-            "VZ",
-            "ABT",
-            "WMT"
-        ],
-        "stocks_weights": [
-            0.143,
-            0.05,
-            0.023,
-            0.025,
-            0.137,
-            0.186,
-            0.2,
-            0.084,
-            0.092,
-            0.06
-        ],
-        "initial_investment": 5101.72,
-        "time": 55,
-        "time_horizon": "medium_term",
-        "start_date": "2025-01-09"
-    },
-    {
-        "stocks_list": [
-            "V",
             "WMT",
-            "CMCSA",
-            "GOOGL",
-            "NVDA",
-            "MRK",
-            "PEP",
-            "ORCL",
-            "PFE"
-        ],
-        "stocks_weights": [
-            0.10999999999999989,
-            0.169,
-            0.14,
-            0.109,
-            0.05,
-            0.105,
-            0.147,
-            0.08,
-            0.09
-        ],
-        "initial_investment": 20231.05,
-        "time": 102,
-        "time_horizon": "long_term",
-        "start_date": "2024-03-14"
-    },
-    {
-        "stocks_list": [
-            "MRK",
-            "AMZN",
-            "BAC",
-            "NVDA",
+            "CVX",
+            "INTC",
+            "DIS",
             "IBM"
         ],
         "stocks_weights": [
-            0.143,
-            0.123,
-            0.253,
-            0.287,
-            0.194
+            0.108,
+            0.231,
+            0.077,
+            0.071,
+            0.183,
+            0.188,
+            0.059,
+            0.083
         ],
-        "initial_investment": 2590.12,
-        "time": 45,
-        "time_horizon": "medium_term",
-        "start_date": "2024-11-23"
+        "initial_investment": 36160.6,
+        "time": 269,
+        "start_date": "2023-05-05"
+    },
+    {
+        "stocks_list": [
+            "AAPL",
+            "VZ",
+            "CSCO",
+            "AMZN",
+            "GOOGL",
+            "MU"
+        ],
+        "stocks_weights": [
+            0.224,
+            0.164,
+            0.042,
+            0.213,
+            0.198,
+            0.159
+        ],
+        "initial_investment": 57372.54,
+        "time": 109,
+        "start_date": "2023-10-20"
+    },
+    {
+        "stocks_list": [
+            "NVDA",
+            "MU",
+            "AMZN",
+            "CVX",
+            "PG"
+        ],
+        "stocks_weights": [
+            0.17,
+            0.392,
+            0.223,
+            0.106,
+            0.109
+        ],
+        "initial_investment": 10122.35,
+        "time": 83,
+        "start_date": "2024-10-21"
+    },
+    {
+        "stocks_list": [
+            "CRM",
+            "VZ",
+            "WMT",
+            "GS",
+            "NFLX"
+        ],
+        "stocks_weights": [
+            0.249,
+            0.178,
+            0.156,
+            0.19,
+            0.227
+        ],
+        "initial_investment": 37151.34,
+        "time": 126,
+        "start_date": "2023-11-28"
+    },
+    {
+        "stocks_list": [
+            "META",
+            "NFLX",
+            "MRK",
+            "VZ",
+            "AMD",
+            "PFE"
+        ],
+        "stocks_weights": [
+            0.2520000000000001,
+            0.07,
+            0.253,
+            0.058,
+            0.293,
+            0.074
+        ],
+        "initial_investment": 29627.49,
+        "time": 166,
+        "start_date": "2024-01-09"
     },
     {
         "stocks_list": [
             "V",
-            "AMD",
-            "VZ",
-            "ACN",
-            "MSFT",
-            "PYPL",
-            "MS",
-            "PG",
-            "JPM",
-            "AAPL"
+            "MRK",
+            "WMT"
         ],
         "stocks_weights": [
-            0.059,
-            0.11,
-            0.089,
-            0.077,
-            0.14,
-            0.122,
-            0.037,
-            0.142,
-            0.081,
-            0.143
+            0.154,
+            0.386,
+            0.46
         ],
-        "initial_investment": 67309.67,
-        "time": 20,
-        "time_horizon": "medium_term",
-        "start_date": "2023-08-01"
+        "initial_investment": 84972.92,
+        "time": 129,
+        "start_date": "2023-06-29"
     },
     {
         "stocks_list": [
-            "ABT",
-            "T",
-            "NFLX",
-            "AAPL",
-            "QCOM",
-            "NVDA",
-            "TXN",
-            "VZ",
             "CSCO",
-            "MS"
+            "CRM",
+            "AAPL",
+            "WMT",
+            "GOOGL",
+            "CVX",
+            "TXN",
+            "MRK",
+            "MS",
+            "DIS"
         ],
         "stocks_weights": [
-            0.06100000000000011,
-            0.086,
-            0.078,
-            0.031,
-            0.184,
-            0.2,
-            0.175,
-            0.037,
-            0.122,
+            0.02,
+            0.061,
+            0.139,
+            0.134,
+            0.145,
+            0.06,
+            0.117,
+            0.152,
+            0.146,
             0.026
         ],
-        "initial_investment": 96987.43,
-        "time": 6,
-        "time_horizon": "short_term",
-        "start_date": "2023-11-10"
-    },
-    {
-        "stocks_list": [
-            "PYPL",
-            "PFE",
-            "T",
-            "META",
-            "KO"
-        ],
-        "stocks_weights": [
-            0.219,
-            0.193,
-            0.209,
-            0.199,
-            0.18
-        ],
-        "initial_investment": 86929.77,
-        "time": 10,
-        "time_horizon": "short_term",
-        "start_date": "2024-07-30"
-    },
-    {
-        "stocks_list": [
-            "AMZN",
-            "MU",
-            "ORCL",
-            "JPM",
-            "GOOGL",
-            "C",
-            "MS"
-        ],
-        "stocks_weights": [
-            0.244,
-            0.156,
-            0.099,
-            0.122,
-            0.047,
-            0.115,
-            0.217
-        ],
-        "initial_investment": 79217.07,
-        "time": 278,
-        "time_horizon": "long_term",
-        "start_date": "2024-04-20"
+        "initial_investment": 89339.58,
+        "time": 264,
+        "start_date": "2023-09-17"
     },
     {
         "stocks_list": [
             "META",
-            "MU",
-            "PFE"
-        ],
-        "stocks_weights": [
-            0.17,
-            0.526,
-            0.304
-        ],
-        "initial_investment": 23361.68,
-        "time": 21,
-        "time_horizon": "medium_term",
-        "start_date": "2023-04-04"
-    },
-    {
-        "stocks_list": [
-            "PYPL",
-            "PG",
-            "MRK",
-            "AAPL",
-            "MU",
-            "TSLA"
-        ],
-        "stocks_weights": [
-            0.095,
-            0.281,
-            0.163,
-            0.216,
-            0.198,
-            0.047
-        ],
-        "initial_investment": 82756.12,
-        "time": 73,
-        "time_horizon": "long_term",
-        "start_date": "2024-01-11"
-    },
-    {
-        "stocks_list": [
-            "C",
-            "CSCO",
-            "ADBE",
-            "QCOM",
-            "WMT",
-            "MSFT",
-            "T",
-            "BAC"
-        ],
-        "stocks_weights": [
-            0.13200000000000012,
-            0.102,
-            0.145,
-            0.038,
-            0.11,
-            0.207,
-            0.179,
-            0.087
-        ],
-        "initial_investment": 69402.96,
-        "time": 6,
-        "time_horizon": "short_term",
-        "start_date": "2024-07-22"
-    },
-    {
-        "stocks_list": [
-            "MSFT",
-            "CVX",
-            "TSLA"
-        ],
-        "stocks_weights": [
-            0.088,
-            0.365,
-            0.547
-        ],
-        "initial_investment": 46548.51,
-        "time": 68,
-        "time_horizon": "long_term",
-        "start_date": "2024-04-17"
-    },
-    {
-        "stocks_list": [
-            "MSFT",
-            "ABT",
             "PEP",
-            "ORCL",
-            "MU",
-            "PG",
-            "PFE",
-            "T",
+            "WMT",
             "JNJ"
         ],
         "stocks_weights": [
-            0.125,
-            0.105,
-            0.061,
-            0.041,
-            0.175,
-            0.055,
-            0.196,
-            0.168,
-            0.074
+            0.117,
+            0.375,
+            0.103,
+            0.405
         ],
-        "initial_investment": 81768.08,
-        "time": 5,
-        "time_horizon": "short_term",
-        "start_date": "2023-11-13"
+        "initial_investment": 17080.66,
+        "time": 211,
+        "start_date": "2023-12-02"
     },
     {
         "stocks_list": [
-            "ORCL",
-            "GS",
-            "INTC",
+            "NVDA",
+            "PFE",
             "ADBE",
-            "BAC"
+            "WMT",
+            "META",
+            "PYPL",
+            "T"
         ],
         "stocks_weights": [
-            0.279,
-            0.168,
-            0.193,
-            0.14,
-            0.22
+            0.109,
+            0.259,
+            0.24,
+            0.109,
+            0.124,
+            0.09,
+            0.069
         ],
-        "initial_investment": 36155.81,
-        "time": 4,
-        "time_horizon": "short_term",
-        "start_date": "2024-07-02"
+        "initial_investment": 79629.48,
+        "time": 121,
+        "start_date": "2024-04-07"
+    },
+    {
+        "stocks_list": [
+            "TXN",
+            "IBM",
+            "ABT",
+            "PEP",
+            "MSFT",
+            "DIS",
+            "V",
+            "NFLX"
+        ],
+        "stocks_weights": [
+            0.078,
+            0.207,
+            0.059,
+            0.12,
+            0.203,
+            0.202,
+            0.025,
+            0.106
+        ],
+        "initial_investment": 96229.85,
+        "time": 230,
+        "start_date": "2024-07-08"
+    },
+    {
+        "stocks_list": [
+            "BAC",
+            "PYPL",
+            "AMZN"
+        ],
+        "stocks_weights": [
+            0.479,
+            0.197,
+            0.324
+        ],
+        "initial_investment": 74544.75,
+        "time": 177,
+        "start_date": "2024-09-06"
     },
     {
         "stocks_list": [
             "PG",
-            "NVDA",
-            "T",
             "JNJ",
-            "MRK",
-            "AMZN",
-            "MU"
+            "GS",
+            "MSFT",
+            "CMCSA",
+            "C",
+            "PEP",
+            "QCOM"
         ],
         "stocks_weights": [
-            0.03800000000000011,
-            0.25,
-            0.082,
-            0.038,
-            0.14,
-            0.214,
-            0.238
+            0.183,
+            0.106,
+            0.105,
+            0.113,
+            0.131,
+            0.174,
+            0.164,
+            0.024
         ],
-        "initial_investment": 74397.39,
-        "time": 20,
-        "time_horizon": "medium_term",
-        "start_date": "2024-11-23"
+        "initial_investment": 33597.29,
+        "time": 222,
+        "start_date": "2023-05-25"
     },
     {
         "stocks_list": [
-            "CMCSA",
-            "MSFT",
-            "NVDA",
-            "ORCL"
+            "PG",
+            "QCOM",
+            "AMZN"
         ],
         "stocks_weights": [
-            0.187,
-            0.227,
-            0.214,
-            0.372
+            0.42,
+            0.371,
+            0.209
         ],
-        "initial_investment": 65331.06,
-        "time": 360,
-        "time_horizon": "long_term",
-        "start_date": "2023-05-30"
+        "initial_investment": 51271.74,
+        "time": 354,
+        "start_date": "2023-07-21"
+    },
+    {
+        "stocks_list": [
+            "BAC",
+            "CVX",
+            "QCOM",
+            "KO",
+            "C",
+            "PG",
+            "XOM",
+            "AMZN",
+            "ACN"
+        ],
+        "stocks_weights": [
+            0.071,
+            0.084,
+            0.175,
+            0.125,
+            0.156,
+            0.019,
+            0.06,
+            0.181,
+            0.129
+        ],
+        "initial_investment": 45936.56,
+        "time": 61,
+        "start_date": "2024-12-13"
+    },
+    {
+        "stocks_list": [
+            "PYPL",
+            "KO",
+            "GOOGL",
+            "MS",
+            "IBM"
+        ],
+        "stocks_weights": [
+            0.281,
+            0.263,
+            0.093,
+            0.305,
+            0.058
+        ],
+        "initial_investment": 98618.71,
+        "time": 193,
+        "start_date": "2023-08-24"
+    },
+    {
+        "stocks_list": [
+            "TXN",
+            "AMD",
+            "JNJ",
+            "PFE",
+            "C",
+            "WMT",
+            "MRK",
+            "NVDA"
+        ],
+        "stocks_weights": [
+            0.122,
+            0.07,
+            0.066,
+            0.203,
+            0.128,
+            0.049,
+            0.158,
+            0.204
+        ],
+        "initial_investment": 48603.4,
+        "time": 259,
+        "start_date": "2023-08-03"
+    },
+    {
+        "stocks_list": [
+            "MS",
+            "NVDA",
+            "CVX",
+            "VZ"
+        ],
+        "stocks_weights": [
+            0.202,
+            0.25,
+            0.214,
+            0.334
+        ],
+        "initial_investment": 67442.62,
+        "time": 352,
+        "start_date": "2023-05-25"
+    },
+    {
+        "stocks_list": [
+            "QCOM",
+            "JNJ",
+            "ORCL",
+            "AMZN",
+            "CRM",
+            "CVX",
+            "TXN",
+            "PFE",
+            "ACN",
+            "C"
+        ],
+        "stocks_weights": [
+            0.083,
+            0.144,
+            0.044,
+            0.065,
+            0.091,
+            0.144,
+            0.063,
+            0.097,
+            0.128,
+            0.141
+        ],
+        "initial_investment": 85087.87,
+        "time": 246,
+        "start_date": "2023-09-19"
+    },
+    {
+        "stocks_list": [
+            "QCOM",
+            "MSFT",
+            "META",
+            "VZ",
+            "NFLX",
+            "AMZN",
+            "PYPL",
+            "CMCSA"
+        ],
+        "stocks_weights": [
+            0.15,
+            0.044,
+            0.122,
+            0.092,
+            0.124,
+            0.174,
+            0.169,
+            0.125
+        ],
+        "initial_investment": 5653.04,
+        "time": 305,
+        "start_date": "2023-09-29"
     }
 ]
