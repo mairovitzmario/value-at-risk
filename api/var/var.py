@@ -4,9 +4,9 @@ import datetime as dt
 import yfinance as yf
 from scipy.stats import norm, t
 
-from var.portofolio_data import PortofolioData
+# from var.portofolio_data import PortofolioData
 
-# from portofolio_data import PortofolioData
+from portofolio_data import PortofolioData
 
 
 class VaR:
