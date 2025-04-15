@@ -125,7 +125,7 @@ def generate_random_portfolio(
     initial_investment = round(random.uniform(1000, 100000), 2)
 
     # Generate a random time horizon between 30 and 365 days
-    time = random.randint(2, 365)
+    time = random.randint(2, 100)  # Days
 
     # Generate a random date from the past, ensuring it's at least 'time' days before now
     max_days_ago = 730  # Maximum 2 years in the past
