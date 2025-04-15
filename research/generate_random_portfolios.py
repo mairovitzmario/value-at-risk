@@ -131,7 +131,7 @@ def generate_random_portfolio(
     max_days_ago = 730  # Maximum 2 years in the past
     min_days_ago = time + 10  # At least time + 10 days ago
     days_ago = random.randint(min_days_ago, max_days_ago)
-    past_date = dt.datetime.now() - dt.timedelta(days=days_ago)
+    past_date = dt.datetime(2025, 4, 30) - dt.timedelta(days=days_ago)
 
     # Format the date as a string
     date_str = past_date.strftime("%Y-%m-%d")
