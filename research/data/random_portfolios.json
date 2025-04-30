@@ -1,2236 +1,2190 @@
 [
     {
         "stocks_list": [
-            "MSFT",
-            "NTDOY",
-            "SPOT",
-            "ADBE",
-            "TGT",
-            "PHG"
+            "MMM",
+            "CSCO",
+            "DIS"
         ],
         "stocks_weights": [
-            0.208,
-            0.231,
-            0.065,
-            0.088,
-            0.139,
-            0.269
+            0.164,
+            0.211,
+            0.625
         ],
-        "initial_investment": 36197.15,
-        "time": 3,
-        "start_date": "2023-09-20"
+        "initial_investment": 36020.4,
+        "time": 78,
+        "start_date": "2023-10-13"
     },
     {
         "stocks_list": [
-            "SBUX",
+            "AEO",
+            "POAHY",
+            "NVDA",
+            "CL"
+        ],
+        "stocks_weights": [
+            0.437,
+            0.09,
+            0.39,
+            0.083
+        ],
+        "initial_investment": 9601.87,
+        "time": 25,
+        "start_date": "2023-09-22"
+    },
+    {
+        "stocks_list": [
+            "LVMUY",
+            "CMG",
+            "KO",
+            "ADDYY",
+            "TGT",
             "DAL",
-            "FDX",
+            "CL",
+            "CROX",
+            "NVDA",
+            "NFLX"
+        ],
+        "stocks_weights": [
+            0.135,
+            0.025,
+            0.203,
+            0.068,
+            0.034,
+            0.088,
+            0.141,
+            0.034,
+            0.168,
+            0.104
+        ],
+        "initial_investment": 2757.99,
+        "time": 67,
+        "start_date": "2023-07-02"
+    },
+    {
+        "stocks_list": [
+            "ADDYY",
+            "HLT",
+            "TGT",
+            "SHOP",
+            "NFLX",
+            "JNJ",
+            "HSY",
+            "CRM"
+        ],
+        "stocks_weights": [
+            0.084,
+            0.146,
+            0.16,
+            0.121,
+            0.106,
+            0.071,
+            0.161,
+            0.151
+        ],
+        "initial_investment": 18781.27,
+        "time": 55,
+        "start_date": "2023-11-30"
+    },
+    {
+        "stocks_list": [
+            "HD",
+            "AMD",
+            "SHOP",
+            "MSFT",
+            "NFLX",
+            "AMZN",
             "MA"
         ],
         "stocks_weights": [
-            0.09,
-            0.348,
-            0.221,
-            0.341
+            0.093,
+            0.225,
+            0.192,
+            0.058,
+            0.207,
+            0.138,
+            0.087
         ],
-        "initial_investment": 40814.86,
-        "time": 76,
-        "start_date": "2023-06-30"
+        "initial_investment": 15983.81,
+        "time": 53,
+        "start_date": "2024-03-06"
     },
     {
         "stocks_list": [
-            "MA",
-            "ZM",
-            "COIN",
-            "V"
+            "NTDOY",
+            "LUV",
+            "TM",
+            "ADDYY",
+            "SHOP",
+            "FL",
+            "SBUX",
+            "LVMUY",
+            "LOGI"
         ],
         "stocks_weights": [
-            0.513,
-            0.299,
-            0.09,
-            0.098
+            0.047,
+            0.082,
+            0.126,
+            0.146,
+            0.153,
+            0.099,
+            0.049,
+            0.128,
+            0.17
         ],
-        "initial_investment": 72361.78,
-        "time": 38,
-        "start_date": "2023-08-12"
+        "initial_investment": 68924.7,
+        "time": 23,
+        "start_date": "2024-10-07"
     },
     {
         "stocks_list": [
-            "NFLX",
-            "PMMAF",
-            "TM"
-        ],
-        "stocks_weights": [
-            0.366,
-            0.307,
-            0.327
-        ],
-        "initial_investment": 43314.47,
-        "time": 29,
-        "start_date": "2024-06-04"
-    },
-    {
-        "stocks_list": [
+            "MSFT",
+            "HLT",
+            "AEO",
+            "GOOGL",
             "CMG",
-            "MA",
-            "DAL",
-            "NFLX",
-            "ADBE"
-        ],
-        "stocks_weights": [
-            0.159,
-            0.161,
-            0.245,
-            0.067,
-            0.368
-        ],
-        "initial_investment": 83978.71,
-        "time": 37,
-        "start_date": "2024-09-08"
-    },
-    {
-        "stocks_list": [
-            "COIN",
-            "FL",
-            "CL",
-            "UL",
-            "SPOT",
-            "TGT",
-            "TM"
-        ],
-        "stocks_weights": [
-            0.19200000000000012,
-            0.074,
-            0.091,
-            0.114,
-            0.203,
-            0.12,
-            0.206
-        ],
-        "initial_investment": 9987.99,
-        "time": 60,
-        "start_date": "2023-07-20"
-    },
-    {
-        "stocks_list": [
-            "ADBE",
-            "UBSFY",
-            "PTON",
-            "FL",
-            "POAHY",
             "MCD",
-            "AEO"
-        ],
-        "stocks_weights": [
-            0.072,
-            0.346,
-            0.072,
-            0.175,
-            0.083,
-            0.067,
-            0.185
-        ],
-        "initial_investment": 65302.89,
-        "time": 34,
-        "start_date": "2023-06-24"
-    },
-    {
-        "stocks_list": [
-            "COST",
-            "ABNB",
+            "AAPL",
+            "KO",
+            "HD",
             "DAL"
         ],
         "stocks_weights": [
-            0.127,
-            0.369,
-            0.504
-        ],
-        "initial_investment": 36353.1,
-        "time": 44,
-        "start_date": "2023-10-28"
-    },
-    {
-        "stocks_list": [
-            "ADDYY",
-            "KO",
-            "PTON",
-            "PG",
-            "AEO",
-            "PINS",
-            "CMG",
-            "LOGI",
-            "CROX",
-            "JPM"
-        ],
-        "stocks_weights": [
-            0.16,
-            0.068,
-            0.056,
-            0.049,
-            0.117,
-            0.023,
-            0.174,
-            0.176,
-            0.038,
-            0.139
-        ],
-        "initial_investment": 17077.1,
-        "time": 12,
-        "start_date": "2023-09-15"
-    },
-    {
-        "stocks_list": [
-            "FL",
-            "HLT",
-            "DAL",
-            "AMD",
-            "AMZN",
-            "UL"
-        ],
-        "stocks_weights": [
+            0.072,
             0.065,
-            0.26,
-            0.184,
-            0.221,
-            0.17,
-            0.1
-        ],
-        "initial_investment": 1740.65,
-        "time": 34,
-        "start_date": "2023-08-14"
-    },
-    {
-        "stocks_list": [
-            "CL",
-            "FDX",
-            "KO",
-            "ABNB",
-            "CROX",
-            "PTON",
-            "JPM",
-            "JNJ",
-            "HLT",
-            "NFLX"
-        ],
-        "stocks_weights": [
-            0.02299999999999989,
-            0.14,
-            0.157,
-            0.073,
-            0.074,
-            0.138,
-            0.085,
-            0.147,
-            0.112,
-            0.051
-        ],
-        "initial_investment": 98051.11,
-        "time": 39,
-        "start_date": "2024-07-28"
-    },
-    {
-        "stocks_list": [
-            "AEO",
-            "ADDYY",
-            "PTON",
-            "HD",
-            "MA",
-            "FDX",
-            "PINS",
-            "BAMXF",
-            "HSY",
-            "NFLX"
-        ],
-        "stocks_weights": [
-            0.091,
-            0.097,
-            0.129,
-            0.075,
-            0.147,
-            0.117,
-            0.135,
-            0.043,
-            0.03,
-            0.136
-        ],
-        "initial_investment": 36781.0,
-        "time": 75,
-        "start_date": "2024-03-25"
-    },
-    {
-        "stocks_list": [
-            "SPOT",
-            "DIS",
-            "NFLX",
-            "AMD",
-            "MCD",
-            "PINS",
-            "CRM"
-        ],
-        "stocks_weights": [
-            0.1699999999999999,
-            0.066,
-            0.156,
-            0.232,
-            0.113,
-            0.224,
-            0.039
-        ],
-        "initial_investment": 65188.39,
-        "time": 91,
-        "start_date": "2024-06-08"
-    },
-    {
-        "stocks_list": [
-            "ZM",
-            "DIS",
-            "CSCO",
-            "FDX"
-        ],
-        "stocks_weights": [
-            0.484,
-            0.101,
-            0.149,
-            0.266
-        ],
-        "initial_investment": 61563.7,
-        "time": 34,
-        "start_date": "2024-12-12"
-    },
-    {
-        "stocks_list": [
-            "HMC",
-            "UBER",
-            "ADDYY",
-            "GOOGL"
-        ],
-        "stocks_weights": [
-            0.358,
-            0.102,
-            0.407,
-            0.133
-        ],
-        "initial_investment": 74479.92,
-        "time": 63,
-        "start_date": "2024-05-30"
-    },
-    {
-        "stocks_list": [
-            "HD",
-            "HMC",
-            "RBLX",
-            "POAHY",
-            "AAPL",
-            "TSLA",
-            "FDX"
-        ],
-        "stocks_weights": [
-            0.3000000000000001,
-            0.209,
-            0.134,
-            0.045,
-            0.049,
-            0.105,
-            0.158
-        ],
-        "initial_investment": 95709.6,
-        "time": 20,
-        "start_date": "2024-05-13"
-    },
-    {
-        "stocks_list": [
-            "UL",
-            "HD",
-            "RBLX",
-            "SQ",
-            "HSY",
-            "CMG",
-            "DIS"
-        ],
-        "stocks_weights": [
-            0.071,
-            0.16,
-            0.206,
-            0.218,
-            0.028,
-            0.101,
-            0.216
-        ],
-        "initial_investment": 51798.13,
-        "time": 39,
-        "start_date": "2023-09-24"
-    },
-    {
-        "stocks_list": [
-            "PINS",
-            "MSFT",
-            "AAPL",
-            "MCD",
-            "ZM",
-            "AMZN",
-            "UBSFY",
-            "JPM",
-            "NFLX",
-            "TSLA"
-        ],
-        "stocks_weights": [
-            0.159,
-            0.034,
-            0.112,
-            0.035,
-            0.133,
-            0.162,
-            0.077,
-            0.091,
-            0.155,
-            0.042
-        ],
-        "initial_investment": 46701.93,
-        "time": 95,
-        "start_date": "2023-10-23"
-    },
-    {
-        "stocks_list": [
-            "TGT",
-            "ZM",
-            "UL"
-        ],
-        "stocks_weights": [
-            0.299,
-            0.384,
-            0.317
-        ],
-        "initial_investment": 6834.34,
-        "time": 54,
-        "start_date": "2025-02-11"
-    },
-    {
-        "stocks_list": [
-            "TGT",
-            "V",
-            "KO",
-            "POAHY",
-            "NKE",
-            "CL",
-            "SBUX"
-        ],
-        "stocks_weights": [
-            0.128,
-            0.102,
-            0.208,
-            0.12,
-            0.08,
-            0.227,
-            0.135
-        ],
-        "initial_investment": 83934.35,
-        "time": 79,
-        "start_date": "2024-03-25"
-    },
-    {
-        "stocks_list": [
-            "AXP",
-            "NTDOY",
-            "CROX"
-        ],
-        "stocks_weights": [
-            0.227,
-            0.524,
-            0.249
-        ],
-        "initial_investment": 20926.59,
-        "time": 77,
-        "start_date": "2024-07-31"
-    },
-    {
-        "stocks_list": [
-            "UL",
-            "PMMAF",
-            "SQ",
-            "DIS",
-            "CMG",
-            "ABNB",
-            "MCD",
-            "NKE",
-            "CL",
-            "LOGI"
-        ],
-        "stocks_weights": [
-            0.143,
-            0.148,
-            0.083,
-            0.107,
-            0.085,
+            0.222,
             0.068,
-            0.096,
-            0.09,
-            0.036,
-            0.144
+            0.029,
+            0.223,
+            0.066,
+            0.066,
+            0.076,
+            0.113
         ],
-        "initial_investment": 86737.14,
-        "time": 85,
-        "start_date": "2024-09-10"
-    },
-    {
-        "stocks_list": [
-            "PMMAF",
-            "AMD",
-            "PINS",
-            "NKE",
-            "JWN",
-            "COST",
-            "FDX"
-        ],
-        "stocks_weights": [
-            0.165,
-            0.142,
-            0.221,
-            0.206,
-            0.202,
-            0.033,
-            0.031
-        ],
-        "initial_investment": 22398.81,
-        "time": 26,
-        "start_date": "2023-12-27"
-    },
-    {
-        "stocks_list": [
-            "PMMAF",
-            "COST",
-            "JWN",
-            "SQ",
-            "LOGI",
-            "CMG",
-            "AEO"
-        ],
-        "stocks_weights": [
-            0.06200000000000011,
-            0.208,
-            0.149,
-            0.116,
-            0.106,
-            0.233,
-            0.126
-        ],
-        "initial_investment": 71944.75,
-        "time": 3,
-        "start_date": "2024-01-03"
+        "initial_investment": 13107.02,
+        "time": 47,
+        "start_date": "2023-08-26"
     },
     {
         "stocks_list": [
             "JNJ",
-            "CROX",
-            "NFLX",
-            "MSFT",
-            "RBLX",
-            "ZI",
-            "AAPL"
-        ],
-        "stocks_weights": [
-            0.206,
-            0.135,
-            0.093,
-            0.117,
-            0.159,
-            0.128,
-            0.162
-        ],
-        "initial_investment": 89564.03,
-        "time": 15,
-        "start_date": "2024-07-03"
-    },
-    {
-        "stocks_list": [
-            "SBUX",
+            "HD",
+            "AMZN",
             "SHOP",
-            "ABNB",
-            "LVMUY",
-            "ZM",
-            "NFLX"
+            "AXP",
+            "DAL",
+            "JPM",
+            "AEO",
+            "POAHY",
+            "CL"
         ],
         "stocks_weights": [
-            0.258,
-            0.19,
+            0.062,
+            0.019,
             0.166,
-            0.119,
-            0.181,
-            0.086
-        ],
-        "initial_investment": 62711.82,
-        "time": 23,
-        "start_date": "2023-07-27"
-    },
-    {
-        "stocks_list": [
-            "PINS",
-            "ADDYY",
-            "AEO"
-        ],
-        "stocks_weights": [
-            0.389,
-            0.25,
-            0.361
-        ],
-        "initial_investment": 57845.04,
-        "time": 92,
-        "start_date": "2024-08-22"
-    },
-    {
-        "stocks_list": [
-            "FDX",
-            "ZI",
-            "SPOT",
-            "COST",
-            "CSCO",
-            "LVMUY",
-            "DIS"
-        ],
-        "stocks_weights": [
-            0.1649999999999999,
-            0.214,
-            0.112,
-            0.152,
-            0.037,
-            0.203,
-            0.117
-        ],
-        "initial_investment": 12299.36,
-        "time": 25,
-        "start_date": "2023-12-16"
-    },
-    {
-        "stocks_list": [
-            "ZI",
-            "MMM",
-            "UL",
-            "COIN",
-            "AMZN",
-            "CRM"
-        ],
-        "stocks_weights": [
-            0.18,
-            0.227,
-            0.109,
-            0.064,
-            0.2,
-            0.22
-        ],
-        "initial_investment": 63467.67,
-        "time": 68,
-        "start_date": "2024-02-18"
-    },
-    {
-        "stocks_list": [
-            "CSCO",
-            "AXP",
-            "JWN",
-            "CRM",
-            "JNJ"
-        ],
-        "stocks_weights": [
-            0.344,
-            0.043,
-            0.202,
-            0.307,
-            0.104
-        ],
-        "initial_investment": 79800.04,
-        "time": 49,
-        "start_date": "2024-11-16"
-    },
-    {
-        "stocks_list": [
-            "JNJ",
-            "AMD",
-            "TSLA",
-            "ADDYY",
-            "PTON",
-            "NVDA",
-            "MCD",
-            "UL",
-            "MA"
-        ],
-        "stocks_weights": [
-            0.024999999999999887,
-            0.193,
-            0.056,
-            0.14,
-            0.188,
-            0.095,
-            0.106,
-            0.117,
-            0.08
-        ],
-        "initial_investment": 21531.33,
-        "time": 72,
-        "start_date": "2024-07-08"
-    },
-    {
-        "stocks_list": [
-            "PHG",
-            "TM",
-            "ABNB",
-            "AMD",
-            "BAMXF",
-            "MSFT",
-            "RBLX",
-            "NVDA",
-            "SPOT",
-            "ADBE"
-        ],
-        "stocks_weights": [
-            0.021,
-            0.124,
-            0.046,
-            0.131,
-            0.144,
-            0.116,
-            0.141,
-            0.078,
-            0.083,
-            0.116
-        ],
-        "initial_investment": 49722.41,
-        "time": 51,
-        "start_date": "2024-08-18"
-    },
-    {
-        "stocks_list": [
-            "MA",
-            "ZM",
-            "JWN",
-            "SPOT",
-            "DAL",
-            "GOOGL",
-            "LOGI",
-            "LVMUY",
-            "JPM"
-        ],
-        "stocks_weights": [
-            0.089,
-            0.088,
-            0.044,
-            0.173,
-            0.099,
-            0.146,
-            0.063,
-            0.164,
-            0.134
-        ],
-        "initial_investment": 12637.66,
-        "time": 55,
-        "start_date": "2024-05-27"
-    },
-    {
-        "stocks_list": [
-            "PINS",
-            "MAR",
-            "UBSFY",
-            "COST",
-            "ADBE",
-            "MSFT",
-            "KO",
-            "SHOP",
-            "PTON"
-        ],
-        "stocks_weights": [
-            0.125,
-            0.025,
-            0.099,
-            0.125,
-            0.118,
-            0.095,
-            0.21,
-            0.057,
-            0.146
-        ],
-        "initial_investment": 76972.24,
-        "time": 88,
-        "start_date": "2024-10-14"
-    },
-    {
-        "stocks_list": [
-            "LUV",
-            "MSFT",
-            "NFLX",
-            "SHOP",
-            "AXP"
-        ],
-        "stocks_weights": [
-            0.226,
-            0.433,
-            0.051,
-            0.111,
-            0.179
-        ],
-        "initial_investment": 94418.05,
-        "time": 22,
-        "start_date": "2023-09-30"
-    },
-    {
-        "stocks_list": [
-            "MSFT",
-            "SPOT",
-            "PINS",
-            "ADDYY",
-            "CROX",
-            "TGT",
-            "UL",
-            "SHOP"
-        ],
-        "stocks_weights": [
-            0.245,
-            0.086,
-            0.126,
-            0.172,
-            0.046,
-            0.121,
-            0.072,
-            0.132
-        ],
-        "initial_investment": 84785.02,
-        "time": 66,
-        "start_date": "2025-01-25"
-    },
-    {
-        "stocks_list": [
-            "SHOP",
-            "LVMUY",
-            "PTON"
-        ],
-        "stocks_weights": [
-            0.3440000000000001,
-            0.194,
-            0.462
-        ],
-        "initial_investment": 57575.33,
-        "time": 65,
-        "start_date": "2024-08-16"
-    },
-    {
-        "stocks_list": [
-            "BAMXF",
-            "ZI",
-            "TGT"
-        ],
-        "stocks_weights": [
-            0.20599999999999988,
-            0.406,
-            0.388
-        ],
-        "initial_investment": 49312.84,
-        "time": 11,
-        "start_date": "2024-12-18"
-    },
-    {
-        "stocks_list": [
-            "COST",
-            "TGT",
-            "LUV",
-            "MAR",
-            "AMD",
-            "LOGI",
-            "PINS",
-            "MSFT"
-        ],
-        "stocks_weights": [
-            0.053,
-            0.172,
-            0.14,
-            0.155,
-            0.198,
-            0.122,
-            0.091,
-            0.069
-        ],
-        "initial_investment": 31885.06,
-        "time": 10,
-        "start_date": "2024-03-18"
-    },
-    {
-        "stocks_list": [
-            "AAPL",
-            "NKE",
-            "PINS",
-            "KO",
-            "SQ",
-            "CMG",
-            "HD",
-            "UL"
-        ],
-        "stocks_weights": [
-            0.083,
-            0.095,
-            0.229,
-            0.155,
-            0.104,
-            0.188,
-            0.047,
-            0.099
-        ],
-        "initial_investment": 19636.88,
-        "time": 89,
-        "start_date": "2024-07-17"
-    },
-    {
-        "stocks_list": [
-            "HLT",
-            "NFLX",
-            "SHOP"
-        ],
-        "stocks_weights": [
-            0.273,
-            0.579,
-            0.148
-        ],
-        "initial_investment": 64953.93,
-        "time": 56,
-        "start_date": "2024-04-03"
-    },
-    {
-        "stocks_list": [
-            "JPM",
-            "DAL",
-            "NKE",
-            "V",
-            "LUV",
-            "HD",
-            "TSLA"
-        ],
-        "stocks_weights": [
-            0.232,
-            0.18,
-            0.132,
-            0.234,
-            0.028,
-            0.097,
-            0.097
-        ],
-        "initial_investment": 28932.56,
-        "time": 94,
-        "start_date": "2023-06-10"
-    },
-    {
-        "stocks_list": [
-            "SBUX",
-            "NFLX",
-            "ADDYY",
-            "NTDOY",
-            "DIS",
-            "AAPL",
-            "JWN",
-            "PINS"
-        ],
-        "stocks_weights": [
-            0.171,
-            0.047,
-            0.16,
-            0.073,
-            0.105,
-            0.163,
-            0.174,
-            0.107
-        ],
-        "initial_investment": 92145.53,
-        "time": 48,
-        "start_date": "2024-01-24"
-    },
-    {
-        "stocks_list": [
-            "MMM",
-            "JWN",
-            "CL",
-            "SQ",
-            "AMD",
-            "MAR",
-            "ABNB",
-            "LVMUY"
-        ],
-        "stocks_weights": [
-            0.022,
-            0.2,
-            0.05,
-            0.04,
-            0.134,
-            0.196,
-            0.149,
-            0.209
-        ],
-        "initial_investment": 55301.57,
-        "time": 77,
-        "start_date": "2024-10-06"
-    },
-    {
-        "stocks_list": [
-            "POAHY",
-            "KO",
-            "SHOP",
-            "ZI",
-            "MA",
-            "AMZN",
-            "UBSFY",
-            "COST"
-        ],
-        "stocks_weights": [
-            0.176,
-            0.168,
-            0.088,
-            0.026,
-            0.14,
-            0.158,
-            0.116,
-            0.128
-        ],
-        "initial_investment": 43148.07,
-        "time": 83,
-        "start_date": "2024-10-21"
-    },
-    {
-        "stocks_list": [
-            "ZI",
-            "DIS",
-            "HMC",
-            "MMM",
-            "HLT",
-            "SHOP"
-        ],
-        "stocks_weights": [
-            0.093,
-            0.085,
-            0.11,
-            0.062,
-            0.349,
-            0.301
-        ],
-        "initial_investment": 39552.9,
-        "time": 28,
-        "start_date": "2023-07-08"
-    },
-    {
-        "stocks_list": [
-            "JWN",
-            "DAL",
-            "AXP",
-            "COIN",
-            "SHOP",
-            "TM",
-            "JNJ",
-            "CSCO",
-            "ADBE",
-            "PMMAF"
-        ],
-        "stocks_weights": [
-            0.116,
-            0.127,
-            0.057,
-            0.138,
-            0.123,
-            0.126,
-            0.062,
-            0.037,
-            0.147,
-            0.067
-        ],
-        "initial_investment": 60873.42,
-        "time": 36,
-        "start_date": "2024-09-29"
-    },
-    {
-        "stocks_list": [
-            "ADDYY",
-            "JNJ",
-            "POAHY",
-            "FL",
-            "UBSFY",
-            "JPM"
-        ],
-        "stocks_weights": [
-            0.2609999999999999,
-            0.199,
-            0.118,
-            0.305,
-            0.066,
-            0.051
-        ],
-        "initial_investment": 5993.32,
-        "time": 36,
-        "start_date": "2023-05-05"
-    },
-    {
-        "stocks_list": [
-            "ADDYY",
-            "MSFT",
-            "JPM",
-            "TSLA"
-        ],
-        "stocks_weights": [
-            0.159,
-            0.461,
-            0.286,
-            0.094
-        ],
-        "initial_investment": 14973.94,
-        "time": 53,
-        "start_date": "2024-02-14"
-    },
-    {
-        "stocks_list": [
-            "HD",
-            "AAPL",
-            "HLT",
-            "KO",
-            "PTON",
-            "MSFT"
-        ],
-        "stocks_weights": [
-            0.121,
-            0.084,
-            0.249,
-            0.257,
-            0.192,
-            0.097
-        ],
-        "initial_investment": 61735.44,
-        "time": 11,
-        "start_date": "2024-12-16"
-    },
-    {
-        "stocks_list": [
-            "HSY",
-            "PG",
-            "HD",
-            "POAHY",
-            "COIN",
-            "SPOT"
-        ],
-        "stocks_weights": [
-            0.2529999999999999,
-            0.037,
-            0.216,
-            0.218,
-            0.139,
-            0.137
-        ],
-        "initial_investment": 21803.14,
-        "time": 71,
-        "start_date": "2024-04-05"
-    },
-    {
-        "stocks_list": [
-            "TGT",
-            "UBER",
-            "SHOP",
-            "V",
-            "ZM"
-        ],
-        "stocks_weights": [
-            0.1490000000000001,
-            0.181,
-            0.228,
-            0.225,
-            0.217
-        ],
-        "initial_investment": 20798.05,
-        "time": 39,
-        "start_date": "2023-11-19"
-    },
-    {
-        "stocks_list": [
-            "NTDOY",
-            "PTON",
-            "TGT",
-            "COST",
-            "CL",
-            "BAMXF",
-            "HLT"
-        ],
-        "stocks_weights": [
-            0.2160000000000001,
-            0.184,
-            0.127,
-            0.075,
-            0.157,
-            0.031,
-            0.21
-        ],
-        "initial_investment": 68727.12,
-        "time": 37,
-        "start_date": "2023-07-09"
-    },
-    {
-        "stocks_list": [
-            "UBER",
-            "SQ",
-            "ADDYY"
-        ],
-        "stocks_weights": [
-            0.318,
-            0.328,
-            0.354
-        ],
-        "initial_investment": 97510.65,
-        "time": 69,
-        "start_date": "2024-08-26"
-    },
-    {
-        "stocks_list": [
-            "AMD",
-            "UBER",
-            "MA",
-            "SBUX",
-            "SQ",
-            "TM",
-            "MAR",
-            "UBSFY"
-        ],
-        "stocks_weights": [
-            0.22500000000000012,
-            0.174,
-            0.143,
-            0.118,
-            0.075,
-            0.072,
-            0.031,
-            0.162
-        ],
-        "initial_investment": 99977.61,
-        "time": 45,
-        "start_date": "2024-08-22"
-    },
-    {
-        "stocks_list": [
-            "COIN",
-            "AMZN",
-            "HMC",
-            "UBSFY",
-            "JWN",
-            "LVMUY",
-            "JNJ",
-            "PHG",
-            "MSFT",
-            "NTDOY"
-        ],
-        "stocks_weights": [
-            0.06,
-            0.109,
-            0.117,
-            0.066,
-            0.142,
-            0.143,
-            0.083,
-            0.116,
-            0.087,
-            0.077
-        ],
-        "initial_investment": 40143.27,
-        "time": 7,
-        "start_date": "2025-04-06"
-    },
-    {
-        "stocks_list": [
-            "UBER",
-            "NTDOY",
-            "AAPL",
-            "PTON",
-            "DAL",
-            "COIN",
-            "PMMAF",
-            "LOGI",
-            "ZI",
-            "HMC"
-        ],
-        "stocks_weights": [
-            0.03,
             0.169,
-            0.072,
-            0.074,
-            0.031,
-            0.162,
-            0.069,
-            0.119,
-            0.104,
-            0.17
+            0.043,
+            0.121,
+            0.029,
+            0.156,
+            0.127,
+            0.108
         ],
-        "initial_investment": 27067.74,
-        "time": 78,
-        "start_date": "2024-01-19"
+        "initial_investment": 40909.32,
+        "time": 24,
+        "start_date": "2025-01-12"
     },
     {
         "stocks_list": [
-            "MAR",
-            "FL",
-            "HLT",
-            "PINS",
-            "CRM",
-            "NVDA",
-            "ZI",
-            "ABNB",
-            "ADBE"
-        ],
-        "stocks_weights": [
-            0.04400000000000011,
-            0.16,
-            0.074,
-            0.132,
-            0.111,
-            0.119,
-            0.152,
-            0.136,
-            0.072
-        ],
-        "initial_investment": 64471.16,
-        "time": 20,
-        "start_date": "2024-04-07"
-    },
-    {
-        "stocks_list": [
-            "MA",
-            "PINS",
-            "CRM",
-            "COIN"
-        ],
-        "stocks_weights": [
-            0.336,
-            0.352,
-            0.167,
-            0.145
-        ],
-        "initial_investment": 11159.72,
-        "time": 95,
-        "start_date": "2024-10-20"
-    },
-    {
-        "stocks_list": [
-            "CMG",
-            "TGT",
+            "UL",
+            "PG",
             "V",
-            "JWN",
-            "DIS",
-            "NVDA"
+            "NVDA",
+            "ADBE"
         ],
         "stocks_weights": [
             0.092,
-            0.087,
-            0.261,
-            0.261,
-            0.151,
-            0.148
+            0.413,
+            0.169,
+            0.269,
+            0.057
         ],
-        "initial_investment": 18965.35,
-        "time": 84,
-        "start_date": "2023-09-01"
-    },
-    {
-        "stocks_list": [
-            "RBLX",
-            "PMMAF",
-            "FDX",
-            "MSFT",
-            "MCD",
-            "V",
-            "DAL",
-            "NTDOY",
-            "UL",
-            "ABNB"
-        ],
-        "stocks_weights": [
-            0.1909999999999999,
-            0.093,
-            0.041,
-            0.174,
-            0.07,
-            0.115,
-            0.07,
-            0.038,
-            0.057,
-            0.151
-        ],
-        "initial_investment": 72492.94,
-        "time": 7,
-        "start_date": "2024-10-06"
-    },
-    {
-        "stocks_list": [
-            "DIS",
-            "COIN",
-            "JPM",
-            "SBUX",
-            "LVMUY",
-            "TSLA",
-            "HD"
-        ],
-        "stocks_weights": [
-            0.1689999999999999,
-            0.183,
-            0.186,
-            0.065,
-            0.135,
-            0.122,
-            0.14
-        ],
-        "initial_investment": 34129.97,
-        "time": 81,
-        "start_date": "2024-12-23"
-    },
-    {
-        "stocks_list": [
-            "KO",
-            "ADBE",
-            "MAR"
-        ],
-        "stocks_weights": [
-            0.167,
-            0.64,
-            0.193
-        ],
-        "initial_investment": 24649.12,
-        "time": 89,
-        "start_date": "2024-05-06"
-    },
-    {
-        "stocks_list": [
-            "UL",
-            "GOOGL",
-            "HLT",
-            "SBUX",
-            "UBER",
-            "MSFT",
-            "AMD",
-            "MAR",
-            "AAPL",
-            "LUV"
-        ],
-        "stocks_weights": [
-            0.029,
-            0.044,
-            0.022,
-            0.1,
-            0.117,
-            0.029,
-            0.166,
-            0.174,
-            0.154,
-            0.165
-        ],
-        "initial_investment": 49341.84,
-        "time": 96,
-        "start_date": "2025-01-09"
-    },
-    {
-        "stocks_list": [
-            "CROX",
-            "SQ",
-            "AXP",
-            "LUV",
-            "TM",
-            "AAPL",
-            "POAHY",
-            "LOGI"
-        ],
-        "stocks_weights": [
-            0.059,
-            0.052,
-            0.025,
-            0.231,
-            0.069,
-            0.118,
-            0.201,
-            0.245
-        ],
-        "initial_investment": 35586.77,
-        "time": 77,
-        "start_date": "2024-04-23"
-    },
-    {
-        "stocks_list": [
-            "CSCO",
-            "NFLX",
-            "FDX"
-        ],
-        "stocks_weights": [
-            0.3379999999999999,
-            0.336,
-            0.326
-        ],
-        "initial_investment": 79127.19,
-        "time": 29,
-        "start_date": "2025-01-30"
-    },
-    {
-        "stocks_list": [
-            "UL",
-            "TGT",
-            "LOGI",
-            "KO",
-            "SQ"
-        ],
-        "stocks_weights": [
-            0.126,
-            0.276,
-            0.315,
-            0.143,
-            0.14
-        ],
-        "initial_investment": 75896.54,
-        "time": 69,
-        "start_date": "2023-07-18"
-    },
-    {
-        "stocks_list": [
-            "DAL",
-            "UL",
-            "AAPL",
-            "TGT",
-            "DIS",
-            "PG",
-            "KO"
-        ],
-        "stocks_weights": [
-            0.061,
-            0.108,
-            0.095,
-            0.117,
-            0.179,
-            0.218,
-            0.222
-        ],
-        "initial_investment": 4540.35,
-        "time": 81,
-        "start_date": "2023-12-26"
-    },
-    {
-        "stocks_list": [
-            "PINS",
-            "SQ",
-            "CSCO",
-            "UL",
-            "ADDYY",
-            "HD",
-            "HLT",
-            "JNJ",
-            "TM"
-        ],
-        "stocks_weights": [
-            0.04800000000000011,
-            0.094,
-            0.148,
-            0.176,
-            0.074,
-            0.048,
-            0.239,
-            0.084,
-            0.089
-        ],
-        "initial_investment": 19135.05,
-        "time": 24,
-        "start_date": "2025-02-15"
-    },
-    {
-        "stocks_list": [
-            "MMM",
-            "HSY",
-            "AMZN"
-        ],
-        "stocks_weights": [
-            0.348,
-            0.146,
-            0.506
-        ],
-        "initial_investment": 30054.43,
-        "time": 38,
-        "start_date": "2024-04-10"
-    },
-    {
-        "stocks_list": [
-            "TSLA",
-            "ADDYY",
-            "CSCO",
-            "GOOGL",
-            "PINS",
-            "MMM",
-            "FL",
-            "TM",
-            "HMC",
-            "DIS"
-        ],
-        "stocks_weights": [
-            0.1710000000000001,
-            0.149,
-            0.032,
-            0.213,
-            0.177,
-            0.117,
-            0.036,
-            0.027,
-            0.03,
-            0.048
-        ],
-        "initial_investment": 83021.59,
-        "time": 27,
-        "start_date": "2024-10-05"
-    },
-    {
-        "stocks_list": [
-            "LOGI",
-            "MSFT",
-            "GOOGL",
-            "ABNB",
-            "NFLX",
-            "RBLX",
-            "UBSFY",
-            "PMMAF",
-            "NTDOY"
-        ],
-        "stocks_weights": [
-            0.1860000000000001,
-            0.078,
-            0.035,
-            0.188,
-            0.184,
-            0.037,
-            0.06,
-            0.15,
-            0.082
-        ],
-        "initial_investment": 3310.59,
-        "time": 20,
-        "start_date": "2024-04-28"
-    },
-    {
-        "stocks_list": [
-            "UBSFY",
-            "LUV",
-            "FDX",
-            "TSLA",
-            "JPM",
-            "ADBE",
-            "ZM",
-            "KO",
-            "COIN",
-            "MSFT"
-        ],
-        "stocks_weights": [
-            0.047,
-            0.151,
-            0.137,
-            0.058,
-            0.026,
-            0.181,
-            0.076,
-            0.137,
-            0.141,
-            0.046
-        ],
-        "initial_investment": 18376.66,
-        "time": 6,
-        "start_date": "2024-05-14"
-    },
-    {
-        "stocks_list": [
-            "AXP",
-            "JPM",
-            "AAPL",
-            "DAL",
-            "AMZN"
-        ],
-        "stocks_weights": [
-            0.1820000000000001,
-            0.27,
-            0.209,
-            0.213,
-            0.126
-        ],
-        "initial_investment": 85946.93,
-        "time": 83,
-        "start_date": "2023-12-01"
-    },
-    {
-        "stocks_list": [
-            "MAR",
-            "MA",
-            "ADBE",
-            "FDX",
-            "GOOGL",
-            "ABNB",
-            "UL",
-            "DAL",
-            "LUV",
-            "RBLX"
-        ],
-        "stocks_weights": [
-            0.116,
-            0.133,
-            0.11,
-            0.06,
-            0.082,
-            0.079,
-            0.062,
-            0.099,
-            0.126,
-            0.133
-        ],
-        "initial_investment": 8720.35,
-        "time": 87,
-        "start_date": "2024-03-07"
-    },
-    {
-        "stocks_list": [
-            "HMC",
-            "SHOP",
-            "NKE",
-            "UBER",
-            "TM",
-            "MMM"
-        ],
-        "stocks_weights": [
-            0.05699999999999989,
-            0.11,
-            0.108,
-            0.34,
-            0.27,
-            0.115
-        ],
-        "initial_investment": 44801.01,
-        "time": 27,
-        "start_date": "2024-09-08"
-    },
-    {
-        "stocks_list": [
-            "TSLA",
-            "HMC",
-            "PTON"
-        ],
-        "stocks_weights": [
-            0.257,
-            0.253,
-            0.49
-        ],
-        "initial_investment": 95196.99,
-        "time": 42,
+        "initial_investment": 94355.59,
+        "time": 90,
         "start_date": "2024-09-22"
     },
     {
         "stocks_list": [
-            "AEO",
-            "SHOP",
-            "AXP",
-            "CROX"
-        ],
-        "stocks_weights": [
-            0.11100000000000011,
-            0.306,
-            0.231,
-            0.352
-        ],
-        "initial_investment": 20594.05,
-        "time": 67,
-        "start_date": "2023-07-28"
-    },
-    {
-        "stocks_list": [
-            "DAL",
-            "HLT",
-            "ABNB",
-            "LVMUY"
-        ],
-        "stocks_weights": [
-            0.282,
-            0.137,
-            0.459,
-            0.122
-        ],
-        "initial_investment": 68908.0,
-        "time": 87,
-        "start_date": "2023-07-04"
-    },
-    {
-        "stocks_list": [
-            "TGT",
-            "DIS",
-            "FL",
-            "SQ",
-            "MA",
-            "NKE",
-            "PHG",
-            "TSLA",
-            "JWN",
-            "CMG"
-        ],
-        "stocks_weights": [
-            0.09800000000000011,
-            0.163,
-            0.243,
-            0.026,
-            0.062,
-            0.125,
-            0.061,
-            0.052,
-            0.11,
-            0.06
-        ],
-        "initial_investment": 79865.47,
-        "time": 43,
-        "start_date": "2024-03-09"
-    },
-    {
-        "stocks_list": [
-            "HLT",
-            "ADBE",
-            "CL",
-            "AAPL",
-            "TSLA",
-            "UBER"
-        ],
-        "stocks_weights": [
-            0.175,
-            0.201,
-            0.134,
-            0.228,
-            0.115,
-            0.147
-        ],
-        "initial_investment": 95219.52,
-        "time": 41,
-        "start_date": "2025-02-22"
-    },
-    {
-        "stocks_list": [
-            "BAMXF",
-            "MA",
-            "RBLX",
-            "ADBE",
-            "TM"
-        ],
-        "stocks_weights": [
-            0.08,
-            0.314,
-            0.207,
-            0.197,
-            0.202
-        ],
-        "initial_investment": 73797.27,
-        "time": 25,
-        "start_date": "2025-01-09"
-    },
-    {
-        "stocks_list": [
-            "UL",
-            "NTDOY",
-            "ZM",
-            "SPOT",
-            "ZI",
-            "PHG",
+            "MAR",
+            "HSY",
+            "LVMUY",
+            "JNJ",
             "AMZN",
-            "ABNB"
-        ],
-        "stocks_weights": [
-            0.128,
-            0.152,
-            0.123,
-            0.097,
-            0.213,
-            0.094,
-            0.125,
-            0.068
-        ],
-        "initial_investment": 7322.3,
-        "time": 62,
-        "start_date": "2023-12-01"
-    },
-    {
-        "stocks_list": [
-            "AAPL",
-            "BAMXF",
-            "SBUX",
-            "CMG",
-            "HSY"
-        ],
-        "stocks_weights": [
-            0.181,
-            0.215,
-            0.094,
-            0.263,
-            0.247
-        ],
-        "initial_investment": 99455.03,
-        "time": 69,
-        "start_date": "2024-06-28"
-    },
-    {
-        "stocks_list": [
-            "LOGI",
-            "SPOT",
-            "PG",
-            "TGT",
-            "RBLX",
-            "CMG",
-            "AEO",
             "HLT",
-            "JNJ",
-            "MA"
+            "FL",
+            "NKE",
+            "ADBE",
+            "FDX"
         ],
         "stocks_weights": [
-            0.135,
-            0.113,
-            0.128,
-            0.092,
-            0.068,
-            0.116,
-            0.053,
-            0.106,
-            0.094,
-            0.095
-        ],
-        "initial_investment": 88548.97,
-        "time": 89,
-        "start_date": "2023-11-08"
-    },
-    {
-        "stocks_list": [
-            "AXP",
-            "PHG",
-            "SPOT",
-            "POAHY",
-            "TGT",
-            "ZM",
-            "LUV",
-            "COIN"
-        ],
-        "stocks_weights": [
-            0.08400000000000012,
-            0.049,
-            0.071,
-            0.042,
+            0.143,
             0.121,
-            0.103,
-            0.376,
-            0.154
+            0.069,
+            0.151,
+            0.069,
+            0.037,
+            0.114,
+            0.028,
+            0.119,
+            0.149
         ],
-        "initial_investment": 56744.53,
-        "time": 46,
-        "start_date": "2023-11-23"
+        "initial_investment": 72841.97,
+        "time": 12,
+        "start_date": "2023-03-29"
     },
     {
         "stocks_list": [
-            "PINS",
-            "MA",
-            "GOOGL",
-            "COIN",
-            "MMM",
-            "HSY",
-            "MSFT",
-            "HD"
-        ],
-        "stocks_weights": [
-            0.07,
-            0.164,
-            0.248,
-            0.117,
-            0.205,
-            0.074,
-            0.063,
-            0.059
-        ],
-        "initial_investment": 40990.93,
-        "time": 26,
-        "start_date": "2023-05-09"
-    },
-    {
-        "stocks_list": [
-            "TGT",
-            "KO",
-            "JNJ",
-            "HSY",
-            "V",
-            "AXP",
+            "BAMXF",
+            "FDX",
+            "HLT",
+            "JPM",
+            "MCD",
+            "SHOP",
+            "SBUX",
+            "PHG",
             "CMG"
         ],
         "stocks_weights": [
-            0.179,
-            0.1,
-            0.104,
-            0.09,
-            0.218,
-            0.051,
-            0.258
-        ],
-        "initial_investment": 23473.91,
-        "time": 100,
-        "start_date": "2024-05-30"
-    },
-    {
-        "stocks_list": [
-            "SHOP",
-            "V",
-            "MA",
-            "TSLA"
-        ],
-        "stocks_weights": [
-            0.115,
-            0.104,
+            0.093,
+            0.137,
+            0.095,
+            0.085,
             0.11,
-            0.671
+            0.161,
+            0.168,
+            0.033,
+            0.118
         ],
-        "initial_investment": 92487.18,
-        "time": 98,
-        "start_date": "2023-07-31"
+        "initial_investment": 84028.58,
+        "time": 89,
+        "start_date": "2024-03-24"
     },
     {
         "stocks_list": [
-            "PINS",
-            "AMD",
+            "UBSFY",
+            "CSCO",
+            "CRM",
+            "GOOGL",
+            "CMG",
+            "NKE",
             "TSLA",
             "PG"
         ],
         "stocks_weights": [
-            0.223,
-            0.465,
-            0.171,
-            0.141
+            0.06,
+            0.149,
+            0.161,
+            0.064,
+            0.083,
+            0.239,
+            0.21,
+            0.034
         ],
-        "initial_investment": 42145.92,
-        "time": 32,
-        "start_date": "2024-01-06"
+        "initial_investment": 5727.56,
+        "time": 15,
+        "start_date": "2024-06-20"
     },
     {
         "stocks_list": [
+            "CL",
+            "CMG",
+            "HMC",
+            "DIS",
+            "HLT"
+        ],
+        "stocks_weights": [
+            0.074,
+            0.116,
+            0.309,
+            0.258,
+            0.243
+        ],
+        "initial_investment": 77359.22,
+        "time": 72,
+        "start_date": "2024-03-13"
+    },
+    {
+        "stocks_list": [
+            "PG",
+            "NFLX",
+            "MCD",
+            "UL",
+            "JNJ",
+            "CMG",
+            "BAMXF",
+            "CSCO"
+        ],
+        "stocks_weights": [
+            0.133,
+            0.095,
+            0.191,
+            0.154,
+            0.069,
+            0.089,
+            0.153,
+            0.116
+        ],
+        "initial_investment": 59577.16,
+        "time": 31,
+        "start_date": "2023-10-17"
+    },
+    {
+        "stocks_list": [
+            "CROX",
+            "FDX",
+            "ADBE",
+            "AXP",
+            "NTDOY",
+            "CRM"
+        ],
+        "stocks_weights": [
+            0.058,
+            0.133,
+            0.227,
+            0.121,
+            0.204,
+            0.257
+        ],
+        "initial_investment": 67329.96,
+        "time": 43,
+        "start_date": "2024-05-19"
+    },
+    {
+        "stocks_list": [
+            "MCD",
+            "FDX",
+            "PMMAF",
+            "LOGI",
             "JWN",
-            "AAPL",
-            "HD",
-            "DAL",
-            "HSY",
-            "CSCO",
-            "ABNB",
-            "LVMUY",
-            "AMZN",
             "CROX"
         ],
         "stocks_weights": [
-            0.08300000000000012,
-            0.205,
-            0.188,
-            0.08,
-            0.05,
-            0.154,
-            0.051,
-            0.055,
-            0.057,
-            0.077
+            0.225,
+            0.041,
+            0.117,
+            0.233,
+            0.247,
+            0.137
         ],
-        "initial_investment": 1503.03,
-        "time": 22,
-        "start_date": "2023-05-15"
+        "initial_investment": 31285.54,
+        "time": 37,
+        "start_date": "2024-01-24"
     },
     {
         "stocks_list": [
-            "LUV",
-            "FDX",
-            "UBER",
-            "CRM",
+            "TGT",
+            "AMD",
+            "MMM",
+            "ADBE",
+            "HLT"
+        ],
+        "stocks_weights": [
+            0.166,
+            0.108,
+            0.316,
+            0.196,
+            0.214
+        ],
+        "initial_investment": 88362.73,
+        "time": 89,
+        "start_date": "2024-02-19"
+    },
+    {
+        "stocks_list": [
+            "KO",
+            "PHG",
+            "ADBE",
+            "NVDA",
+            "CMG",
+            "NFLX",
+            "AMZN",
+            "PMMAF",
+            "FL",
+            "SHOP"
+        ],
+        "stocks_weights": [
+            0.11099999999999989,
+            0.093,
+            0.125,
+            0.093,
+            0.049,
+            0.167,
+            0.165,
+            0.024,
+            0.055,
+            0.118
+        ],
+        "initial_investment": 78725.13,
+        "time": 85,
+        "start_date": "2024-01-12"
+    },
+    {
+        "stocks_list": [
+            "LVMUY",
+            "PMMAF",
+            "AXP",
+            "JPM",
+            "ADBE",
+            "MSFT",
+            "CMG",
+            "NTDOY",
+            "LOGI",
+            "TSLA"
+        ],
+        "stocks_weights": [
+            0.079,
+            0.037,
+            0.118,
+            0.08,
+            0.156,
+            0.06,
+            0.077,
+            0.154,
+            0.143,
+            0.096
+        ],
+        "initial_investment": 62694.41,
+        "time": 15,
+        "start_date": "2023-04-04"
+    },
+    {
+        "stocks_list": [
+            "JWN",
+            "HMC",
+            "AEO"
+        ],
+        "stocks_weights": [
+            0.283,
+            0.217,
+            0.5
+        ],
+        "initial_investment": 12645.16,
+        "time": 20,
+        "start_date": "2024-06-18"
+    },
+    {
+        "stocks_list": [
+            "SHOP",
+            "BAMXF",
+            "NVDA",
+            "CL",
+            "JPM",
+            "CMG",
+            "MSFT",
+            "MMM",
+            "GOOGL"
+        ],
+        "stocks_weights": [
+            0.06099999999999989,
+            0.098,
+            0.191,
+            0.051,
+            0.131,
+            0.035,
+            0.167,
+            0.165,
+            0.101
+        ],
+        "initial_investment": 55461.87,
+        "time": 74,
+        "start_date": "2023-03-23"
+    },
+    {
+        "stocks_list": [
+            "SBUX",
+            "AMD",
+            "JNJ",
             "UL"
         ],
         "stocks_weights": [
-            0.252,
-            0.169,
-            0.207,
-            0.121,
-            0.251
+            0.3379999999999999,
+            0.321,
+            0.203,
+            0.138
         ],
-        "initial_investment": 93550.29,
-        "time": 90,
-        "start_date": "2023-10-04"
+        "initial_investment": 21371.0,
+        "time": 10,
+        "start_date": "2024-01-07"
     },
     {
         "stocks_list": [
-            "JWN",
-            "AMD",
-            "PMMAF",
-            "UBSFY",
-            "PINS",
-            "KO",
-            "ZM"
-        ],
-        "stocks_weights": [
-            0.20899999999999988,
-            0.199,
-            0.04,
-            0.061,
-            0.156,
-            0.17,
-            0.165
-        ],
-        "initial_investment": 54407.64,
-        "time": 52,
-        "start_date": "2023-06-14"
-    },
-    {
-        "stocks_list": [
-            "AEO",
-            "LOGI",
-            "SBUX",
-            "HLT",
-            "COST",
-            "PG",
-            "NVDA"
-        ],
-        "stocks_weights": [
-            0.168,
-            0.181,
-            0.095,
-            0.192,
-            0.187,
-            0.119,
-            0.058
-        ],
-        "initial_investment": 12836.05,
-        "time": 37,
-        "start_date": "2024-10-28"
-    },
-    {
-        "stocks_list": [
-            "TSLA",
-            "JPM",
-            "POAHY",
-            "CSCO",
-            "GOOGL",
-            "LUV",
-            "MCD"
-        ],
-        "stocks_weights": [
-            0.10399999999999988,
-            0.096,
-            0.187,
-            0.257,
-            0.201,
-            0.038,
-            0.117
-        ],
-        "initial_investment": 70790.9,
-        "time": 78,
-        "start_date": "2024-07-09"
-    },
-    {
-        "stocks_list": [
-            "JWN",
-            "GOOGL",
-            "HSY",
-            "COIN",
-            "CMG"
-        ],
-        "stocks_weights": [
-            0.199,
-            0.194,
-            0.199,
-            0.32,
-            0.088
-        ],
-        "initial_investment": 81090.88,
-        "time": 84,
-        "start_date": "2024-08-15"
-    },
-    {
-        "stocks_list": [
-            "BAMXF",
-            "GOOGL",
-            "SBUX",
-            "NVDA",
-            "ADDYY",
-            "HLT",
+            "MAR",
             "PHG",
+            "V",
+            "HLT"
+        ],
+        "stocks_weights": [
+            0.3339999999999999,
+            0.128,
+            0.195,
+            0.343
+        ],
+        "initial_investment": 11946.15,
+        "time": 18,
+        "start_date": "2024-11-12"
+    },
+    {
+        "stocks_list": [
+            "MSFT",
+            "NTDOY",
             "FDX",
-            "ABNB",
-            "COST"
+            "PMMAF",
+            "MCD",
+            "DAL",
+            "AEO",
+            "GOOGL",
+            "LOGI"
+        ],
+        "stocks_weights": [
+            0.053,
+            0.129,
+            0.161,
+            0.208,
+            0.082,
+            0.174,
+            0.026,
+            0.117,
+            0.05
+        ],
+        "initial_investment": 11339.5,
+        "time": 88,
+        "start_date": "2024-09-03"
+    },
+    {
+        "stocks_list": [
+            "PG",
+            "DAL",
+            "HD",
+            "MAR",
+            "ADBE",
+            "NTDOY",
+            "AXP"
+        ],
+        "stocks_weights": [
+            0.072,
+            0.209,
+            0.222,
+            0.192,
+            0.132,
+            0.054,
+            0.119
+        ],
+        "initial_investment": 43060.79,
+        "time": 43,
+        "start_date": "2023-08-27"
+    },
+    {
+        "stocks_list": [
+            "HMC",
+            "CL",
+            "HLT"
+        ],
+        "stocks_weights": [
+            0.209,
+            0.449,
+            0.342
+        ],
+        "initial_investment": 79014.23,
+        "time": 16,
+        "start_date": "2024-12-07"
+    },
+    {
+        "stocks_list": [
+            "AXP",
+            "HMC",
+            "MA"
+        ],
+        "stocks_weights": [
+            0.258,
+            0.435,
+            0.307
+        ],
+        "initial_investment": 74085.67,
+        "time": 41,
+        "start_date": "2023-09-22"
+    },
+    {
+        "stocks_list": [
+            "LVMUY",
+            "KO",
+            "LOGI",
+            "HLT",
+            "TM",
+            "TGT",
+            "GOOGL",
+            "MA",
+            "FDX"
+        ],
+        "stocks_weights": [
+            0.159,
+            0.093,
+            0.133,
+            0.142,
+            0.129,
+            0.141,
+            0.029,
+            0.124,
+            0.05
+        ],
+        "initial_investment": 6121.92,
+        "time": 22,
+        "start_date": "2023-12-02"
+    },
+    {
+        "stocks_list": [
+            "MMM",
+            "NVDA",
+            "AEO",
+            "MAR",
+            "NTDOY",
+            "CL",
+            "MA",
+            "KO",
+            "SHOP"
         ],
         "stocks_weights": [
             0.164,
-            0.136,
-            0.052,
-            0.09,
-            0.043,
-            0.028,
+            0.068,
+            0.023,
+            0.101,
             0.159,
-            0.126,
-            0.028,
-            0.174
+            0.093,
+            0.16,
+            0.197,
+            0.035
         ],
-        "initial_investment": 21109.8,
+        "initial_investment": 29310.39,
         "time": 8,
-        "start_date": "2024-11-23"
+        "start_date": "2024-05-20"
     },
     {
         "stocks_list": [
-            "LOGI",
-            "MAR",
-            "PHG",
-            "FL",
-            "JNJ",
-            "HD",
-            "PMMAF",
+            "CL",
+            "NKE",
+            "MSFT",
             "CSCO",
-            "NFLX",
-            "PTON"
+            "LOGI",
+            "TM",
+            "MAR",
+            "GOOGL",
+            "HD"
         ],
         "stocks_weights": [
-            0.05100000000000011,
-            0.034,
-            0.083,
-            0.113,
-            0.074,
-            0.086,
-            0.184,
-            0.071,
-            0.126,
-            0.178
+            0.146,
+            0.03,
+            0.079,
+            0.152,
+            0.069,
+            0.142,
+            0.173,
+            0.075,
+            0.134
         ],
-        "initial_investment": 26052.24,
+        "initial_investment": 31861.47,
+        "time": 45,
+        "start_date": "2023-07-15"
+    },
+    {
+        "stocks_list": [
+            "AMZN",
+            "MCD",
+            "CMG",
+            "LOGI",
+            "TM",
+            "DAL",
+            "GOOGL",
+            "AXP",
+            "UL",
+            "SHOP"
+        ],
+        "stocks_weights": [
+            0.062,
+            0.136,
+            0.146,
+            0.113,
+            0.123,
+            0.101,
+            0.128,
+            0.072,
+            0.057,
+            0.062
+        ],
+        "initial_investment": 23583.03,
+        "time": 67,
+        "start_date": "2024-09-11"
+    },
+    {
+        "stocks_list": [
+            "CSCO",
+            "JPM",
+            "NTDOY",
+            "NFLX",
+            "FL"
+        ],
+        "stocks_weights": [
+            0.06599999999999989,
+            0.262,
+            0.067,
+            0.273,
+            0.332
+        ],
+        "initial_investment": 38093.4,
+        "time": 83,
+        "start_date": "2024-07-25"
+    },
+    {
+        "stocks_list": [
+            "JPM",
+            "MMM",
+            "HSY",
+            "SHOP",
+            "MAR"
+        ],
+        "stocks_weights": [
+            0.2060000000000001,
+            0.32,
+            0.049,
+            0.14,
+            0.285
+        ],
+        "initial_investment": 90750.68,
+        "time": 18,
+        "start_date": "2023-11-16"
+    },
+    {
+        "stocks_list": [
+            "DIS",
+            "NVDA",
+            "ADDYY",
+            "CMG",
+            "UL",
+            "SBUX",
+            "MA",
+            "PHG",
+            "NFLX"
+        ],
+        "stocks_weights": [
+            0.112,
+            0.045,
+            0.077,
+            0.083,
+            0.094,
+            0.137,
+            0.137,
+            0.157,
+            0.158
+        ],
+        "initial_investment": 70795.27,
+        "time": 39,
+        "start_date": "2024-08-04"
+    },
+    {
+        "stocks_list": [
+            "NFLX",
+            "TGT",
+            "LOGI"
+        ],
+        "stocks_weights": [
+            0.363,
+            0.37,
+            0.267
+        ],
+        "initial_investment": 6570.04,
         "time": 91,
+        "start_date": "2024-07-23"
+    },
+    {
+        "stocks_list": [
+            "JWN",
+            "LUV",
+            "TGT",
+            "GOOGL"
+        ],
+        "stocks_weights": [
+            0.09299999999999989,
+            0.301,
+            0.33,
+            0.276
+        ],
+        "initial_investment": 78711.49,
+        "time": 3,
+        "start_date": "2024-03-25"
+    },
+    {
+        "stocks_list": [
+            "NFLX",
+            "HLT",
+            "MAR",
+            "MMM"
+        ],
+        "stocks_weights": [
+            0.351,
+            0.04,
+            0.316,
+            0.293
+        ],
+        "initial_investment": 45360.25,
+        "time": 50,
+        "start_date": "2023-07-18"
+    },
+    {
+        "stocks_list": [
+            "LVMUY",
+            "SHOP",
+            "ADDYY",
+            "ADBE",
+            "JPM",
+            "HMC"
+        ],
+        "stocks_weights": [
+            0.038,
+            0.167,
+            0.084,
+            0.295,
+            0.321,
+            0.095
+        ],
+        "initial_investment": 94876.11,
+        "time": 77,
+        "start_date": "2024-07-28"
+    },
+    {
+        "stocks_list": [
+            "JWN",
+            "CL",
+            "AEO"
+        ],
+        "stocks_weights": [
+            0.348,
+            0.47,
+            0.182
+        ],
+        "initial_investment": 81821.65,
+        "time": 12,
+        "start_date": "2024-03-24"
+    },
+    {
+        "stocks_list": [
+            "MMM",
+            "NKE",
+            "CROX",
+            "CRM",
+            "MCD",
+            "AAPL",
+            "UL",
+            "CMG",
+            "MSFT",
+            "HSY"
+        ],
+        "stocks_weights": [
+            0.106,
+            0.056,
+            0.179,
+            0.107,
+            0.034,
+            0.033,
+            0.19,
+            0.101,
+            0.082,
+            0.112
+        ],
+        "initial_investment": 37175.23,
+        "time": 49,
+        "start_date": "2023-08-23"
+    },
+    {
+        "stocks_list": [
+            "SBUX",
+            "V",
+            "NTDOY",
+            "JPM"
+        ],
+        "stocks_weights": [
+            0.314,
+            0.198,
+            0.277,
+            0.211
+        ],
+        "initial_investment": 59011.28,
+        "time": 30,
+        "start_date": "2024-05-05"
+    },
+    {
+        "stocks_list": [
+            "DAL",
+            "NKE",
+            "DIS",
+            "CSCO",
+            "PHG",
+            "NTDOY",
+            "MAR",
+            "LOGI",
+            "NFLX"
+        ],
+        "stocks_weights": [
+            0.158,
+            0.149,
+            0.153,
+            0.053,
+            0.164,
+            0.153,
+            0.05,
+            0.078,
+            0.042
+        ],
+        "initial_investment": 53009.8,
+        "time": 71,
+        "start_date": "2023-10-06"
+    },
+    {
+        "stocks_list": [
+            "LVMUY",
+            "ADBE",
+            "AXP",
+            "ADDYY",
+            "UBSFY",
+            "LUV",
+            "NVDA"
+        ],
+        "stocks_weights": [
+            0.163,
+            0.24,
+            0.083,
+            0.202,
+            0.044,
+            0.058,
+            0.21
+        ],
+        "initial_investment": 97424.47,
+        "time": 12,
+        "start_date": "2024-09-21"
+    },
+    {
+        "stocks_list": [
+            "JWN",
+            "NKE",
+            "HMC",
+            "MA"
+        ],
+        "stocks_weights": [
+            0.358,
+            0.374,
+            0.096,
+            0.172
+        ],
+        "initial_investment": 62747.39,
+        "time": 82,
+        "start_date": "2024-08-02"
+    },
+    {
+        "stocks_list": [
+            "GOOGL",
+            "MSFT",
+            "MAR",
+            "TGT"
+        ],
+        "stocks_weights": [
+            0.322,
+            0.211,
+            0.099,
+            0.368
+        ],
+        "initial_investment": 1390.77,
+        "time": 63,
+        "start_date": "2023-02-12"
+    },
+    {
+        "stocks_list": [
+            "NVDA",
+            "DAL",
+            "UL",
+            "JWN",
+            "LVMUY",
+            "GOOGL",
+            "NKE"
+        ],
+        "stocks_weights": [
+            0.045,
+            0.155,
+            0.096,
+            0.295,
+            0.056,
+            0.098,
+            0.255
+        ],
+        "initial_investment": 96399.01,
+        "time": 39,
+        "start_date": "2023-06-25"
+    },
+    {
+        "stocks_list": [
+            "LVMUY",
+            "TM",
+            "HLT",
+            "KO",
+            "AMZN",
+            "ADDYY",
+            "AXP",
+            "MA",
+            "AEO"
+        ],
+        "stocks_weights": [
+            0.1430000000000001,
+            0.026,
+            0.129,
+            0.11,
+            0.172,
+            0.155,
+            0.155,
+            0.047,
+            0.063
+        ],
+        "initial_investment": 28122.94,
+        "time": 69,
         "start_date": "2024-01-29"
     },
     {
         "stocks_list": [
-            "NKE",
-            "CRM",
-            "MCD",
-            "CROX",
-            "MA",
-            "PINS",
-            "JPM",
-            "FL",
-            "CSCO"
+            "UL",
+            "AXP",
+            "TSLA"
         ],
         "stocks_weights": [
-            0.0989999999999999,
-            0.025,
-            0.089,
-            0.126,
-            0.166,
-            0.111,
-            0.155,
-            0.166,
-            0.063
+            0.2510000000000001,
+            0.4,
+            0.349
         ],
-        "initial_investment": 76997.54,
-        "time": 46,
-        "start_date": "2024-06-22"
+        "initial_investment": 58465.66,
+        "time": 99,
+        "start_date": "2023-02-28"
     },
     {
         "stocks_list": [
-            "CMG",
-            "PINS",
+            "MMM",
+            "AXP",
+            "CSCO"
+        ],
+        "stocks_weights": [
+            0.232,
+            0.621,
+            0.147
+        ],
+        "initial_investment": 35356.38,
+        "time": 59,
+        "start_date": "2024-02-03"
+    },
+    {
+        "stocks_list": [
+            "NTDOY",
+            "POAHY",
+            "UL",
+            "FL",
+            "V",
+            "PHG",
+            "MA",
+            "AAPL"
+        ],
+        "stocks_weights": [
+            0.267,
+            0.033,
+            0.1,
+            0.194,
+            0.13,
+            0.082,
+            0.089,
+            0.105
+        ],
+        "initial_investment": 83025.29,
+        "time": 24,
+        "start_date": "2023-04-14"
+    },
+    {
+        "stocks_list": [
+            "AXP",
+            "UBSFY",
+            "JWN",
+            "ADBE",
+            "POAHY",
+            "CSCO"
+        ],
+        "stocks_weights": [
+            0.136,
+            0.195,
+            0.222,
+            0.273,
+            0.124,
+            0.05
+        ],
+        "initial_investment": 73570.73,
+        "time": 87,
+        "start_date": "2023-02-19"
+    },
+    {
+        "stocks_list": [
+            "PMMAF",
+            "NTDOY",
+            "UL",
+            "MA",
+            "AEO",
+            "KO",
+            "GOOGL",
+            "CL"
+        ],
+        "stocks_weights": [
+            0.126,
+            0.073,
+            0.088,
+            0.182,
+            0.148,
+            0.069,
+            0.129,
+            0.185
+        ],
+        "initial_investment": 89977.5,
+        "time": 81,
+        "start_date": "2023-12-31"
+    },
+    {
+        "stocks_list": [
+            "JWN",
+            "CRM",
+            "DIS",
+            "MSFT",
             "TM",
+            "NVDA",
+            "V",
+            "AEO",
+            "HMC",
+            "LUV"
+        ],
+        "stocks_weights": [
+            0.03300000000000011,
+            0.199,
+            0.071,
+            0.144,
+            0.044,
+            0.093,
+            0.044,
+            0.14,
+            0.207,
+            0.025
+        ],
+        "initial_investment": 62581.44,
+        "time": 96,
+        "start_date": "2023-01-12"
+    },
+    {
+        "stocks_list": [
+            "LUV",
+            "SHOP",
+            "TM",
+            "KO"
+        ],
+        "stocks_weights": [
+            0.387,
+            0.156,
+            0.242,
+            0.215
+        ],
+        "initial_investment": 57681.68,
+        "time": 32,
+        "start_date": "2024-06-17"
+    },
+    {
+        "stocks_list": [
+            "HMC",
+            "GOOGL",
+            "PG",
+            "CRM",
+            "NTDOY",
+            "LUV",
+            "CL",
+            "TM",
+            "HSY",
+            "MMM"
+        ],
+        "stocks_weights": [
+            0.14200000000000002,
+            0.072,
+            0.135,
+            0.048,
+            0.03,
+            0.15,
+            0.066,
+            0.167,
+            0.116,
+            0.074
+        ],
+        "initial_investment": 21001.41,
+        "time": 27,
+        "start_date": "2024-08-08"
+    },
+    {
+        "stocks_list": [
+            "V",
+            "PG",
+            "POAHY",
+            "CRM",
+            "UBSFY",
+            "HD",
+            "FL",
+            "AAPL",
+            "SHOP",
+            "UL"
+        ],
+        "stocks_weights": [
+            0.071,
+            0.068,
+            0.103,
+            0.14,
+            0.022,
+            0.116,
+            0.154,
+            0.135,
+            0.153,
+            0.038
+        ],
+        "initial_investment": 1722.6,
+        "time": 63,
+        "start_date": "2024-03-26"
+    },
+    {
+        "stocks_list": [
+            "UBSFY",
+            "JNJ",
+            "V",
+            "MCD",
+            "ADBE",
+            "FL",
+            "NTDOY",
+            "AXP",
+            "KO",
+            "POAHY"
+        ],
+        "stocks_weights": [
+            0.105,
+            0.038,
+            0.073,
+            0.066,
+            0.114,
+            0.122,
+            0.115,
+            0.15,
+            0.109,
+            0.108
+        ],
+        "initial_investment": 30743.53,
+        "time": 35,
+        "start_date": "2024-12-15"
+    },
+    {
+        "stocks_list": [
+            "HSY",
+            "MA",
+            "SBUX"
+        ],
+        "stocks_weights": [
+            0.499,
+            0.284,
+            0.217
+        ],
+        "initial_investment": 99631.29,
+        "time": 52,
+        "start_date": "2024-06-27"
+    },
+    {
+        "stocks_list": [
+            "SHOP",
+            "LOGI",
+            "UL",
+            "PHG",
+            "POAHY",
+            "CROX",
+            "SBUX",
+            "MA"
+        ],
+        "stocks_weights": [
+            0.171,
+            0.056,
+            0.132,
+            0.168,
+            0.163,
+            0.098,
+            0.054,
+            0.158
+        ],
+        "initial_investment": 53856.34,
+        "time": 28,
+        "start_date": "2024-03-16"
+    },
+    {
+        "stocks_list": [
+            "FDX",
+            "AAPL",
+            "NKE",
+            "UL",
+            "MA",
+            "LVMUY",
+            "NTDOY",
+            "MMM",
+            "GOOGL",
+            "SBUX"
+        ],
+        "stocks_weights": [
+            0.10500000000000011,
+            0.123,
+            0.099,
+            0.16,
+            0.159,
+            0.098,
+            0.092,
+            0.087,
+            0.031,
+            0.046
+        ],
+        "initial_investment": 18722.4,
+        "time": 52,
+        "start_date": "2024-06-30"
+    },
+    {
+        "stocks_list": [
+            "CROX",
+            "TM",
+            "ADDYY",
+            "MA",
+            "NTDOY",
+            "JPM"
+        ],
+        "stocks_weights": [
+            0.054,
+            0.188,
+            0.089,
+            0.276,
+            0.197,
+            0.196
+        ],
+        "initial_investment": 39421.97,
+        "time": 62,
+        "start_date": "2024-11-16"
+    },
+    {
+        "stocks_list": [
+            "NFLX",
+            "HSY",
+            "TGT",
+            "CSCO",
+            "HLT",
+            "FL",
+            "V",
+            "DIS",
+            "MAR"
+        ],
+        "stocks_weights": [
+            0.041,
+            0.036,
+            0.062,
+            0.196,
+            0.141,
+            0.112,
+            0.179,
+            0.102,
+            0.131
+        ],
+        "initial_investment": 22152.11,
+        "time": 16,
+        "start_date": "2024-12-14"
+    },
+    {
+        "stocks_list": [
+            "BAMXF",
+            "JWN",
+            "MMM",
+            "FDX"
+        ],
+        "stocks_weights": [
+            0.167,
+            0.248,
+            0.275,
+            0.31
+        ],
+        "initial_investment": 97142.03,
+        "time": 61,
+        "start_date": "2024-01-30"
+    },
+    {
+        "stocks_list": [
+            "AXP",
+            "MAR",
+            "PG",
+            "AMD"
+        ],
+        "stocks_weights": [
+            0.373,
+            0.305,
+            0.099,
+            0.223
+        ],
+        "initial_investment": 80563.7,
+        "time": 12,
+        "start_date": "2024-04-20"
+    },
+    {
+        "stocks_list": [
+            "JWN",
+            "TGT",
+            "UL",
+            "HMC"
+        ],
+        "stocks_weights": [
+            0.402,
+            0.298,
+            0.153,
+            0.147
+        ],
+        "initial_investment": 95139.79,
+        "time": 24,
+        "start_date": "2024-05-05"
+    },
+    {
+        "stocks_list": [
+            "KO",
+            "BAMXF",
+            "AMZN",
+            "LOGI",
+            "UBSFY"
+        ],
+        "stocks_weights": [
+            0.297,
+            0.196,
+            0.098,
+            0.056,
+            0.353
+        ],
+        "initial_investment": 74042.5,
+        "time": 49,
+        "start_date": "2024-04-30"
+    },
+    {
+        "stocks_list": [
+            "AMD",
+            "NKE",
+            "JWN",
+            "NTDOY",
+            "JNJ",
             "LUV",
             "PHG"
         ],
         "stocks_weights": [
-            0.177,
-            0.13,
-            0.299,
-            0.266,
-            0.128
+            0.189,
+            0.242,
+            0.033,
+            0.051,
+            0.128,
+            0.237,
+            0.12
         ],
-        "initial_investment": 80877.33,
-        "time": 82,
-        "start_date": "2024-03-13"
+        "initial_investment": 91929.03,
+        "time": 65,
+        "start_date": "2023-05-02"
+    },
+    {
+        "stocks_list": [
+            "CRM",
+            "COST",
+            "NTDOY"
+        ],
+        "stocks_weights": [
+            0.663,
+            0.107,
+            0.23
+        ],
+        "initial_investment": 58866.54,
+        "time": 11,
+        "start_date": "2023-10-19"
+    },
+    {
+        "stocks_list": [
+            "UBSFY",
+            "FL",
+            "DAL",
+            "NKE",
+            "POAHY",
+            "CMG",
+            "NFLX"
+        ],
+        "stocks_weights": [
+            0.092,
+            0.156,
+            0.08,
+            0.203,
+            0.162,
+            0.073,
+            0.234
+        ],
+        "initial_investment": 47852.33,
+        "time": 96,
+        "start_date": "2023-05-09"
+    },
+    {
+        "stocks_list": [
+            "MSFT",
+            "DAL",
+            "POAHY",
+            "ADDYY",
+            "ADBE"
+        ],
+        "stocks_weights": [
+            0.256,
+            0.06,
+            0.163,
+            0.274,
+            0.247
+        ],
+        "initial_investment": 34034.67,
+        "time": 64,
+        "start_date": "2024-09-06"
+    },
+    {
+        "stocks_list": [
+            "GOOGL",
+            "JNJ",
+            "HSY",
+            "LUV",
+            "CL",
+            "HMC",
+            "AMZN",
+            "AAPL"
+        ],
+        "stocks_weights": [
+            0.146,
+            0.068,
+            0.112,
+            0.116,
+            0.077,
+            0.164,
+            0.172,
+            0.145
+        ],
+        "initial_investment": 93446.0,
+        "time": 35,
+        "start_date": "2023-09-23"
+    },
+    {
+        "stocks_list": [
+            "NVDA",
+            "HLT",
+            "HMC",
+            "UL",
+            "ADDYY",
+            "POAHY",
+            "AXP",
+            "CRM",
+            "MA",
+            "AMZN"
+        ],
+        "stocks_weights": [
+            0.04600000000000011,
+            0.105,
+            0.075,
+            0.19,
+            0.151,
+            0.18,
+            0.033,
+            0.061,
+            0.055,
+            0.104
+        ],
+        "initial_investment": 4396.93,
+        "time": 37,
+        "start_date": "2024-12-15"
+    },
+    {
+        "stocks_list": [
+            "BAMXF",
+            "AMD",
+            "NFLX",
+            "FDX",
+            "SHOP"
+        ],
+        "stocks_weights": [
+            0.339,
+            0.156,
+            0.04,
+            0.131,
+            0.334
+        ],
+        "initial_investment": 28987.03,
+        "time": 41,
+        "start_date": "2023-08-09"
+    },
+    {
+        "stocks_list": [
+            "DAL",
+            "COST",
+            "NKE",
+            "TGT",
+            "FDX",
+            "JPM",
+            "V",
+            "AXP",
+            "AMD"
+        ],
+        "stocks_weights": [
+            0.067,
+            0.088,
+            0.144,
+            0.189,
+            0.178,
+            0.067,
+            0.057,
+            0.183,
+            0.027
+        ],
+        "initial_investment": 69213.47,
+        "time": 83,
+        "start_date": "2023-08-29"
+    },
+    {
+        "stocks_list": [
+            "DAL",
+            "PHG",
+            "BAMXF",
+            "MA",
+            "ADBE"
+        ],
+        "stocks_weights": [
+            0.2229999999999999,
+            0.049,
+            0.325,
+            0.175,
+            0.228
+        ],
+        "initial_investment": 54029.59,
+        "time": 56,
+        "start_date": "2023-07-14"
+    },
+    {
+        "stocks_list": [
+            "CSCO",
+            "MSFT",
+            "MA",
+            "HLT",
+            "COST",
+            "CMG"
+        ],
+        "stocks_weights": [
+            0.153,
+            0.073,
+            0.082,
+            0.24,
+            0.206,
+            0.246
+        ],
+        "initial_investment": 82768.26,
+        "time": 97,
+        "start_date": "2023-03-14"
+    },
+    {
+        "stocks_list": [
+            "AMZN",
+            "MA",
+            "UL",
+            "LVMUY",
+            "PHG",
+            "FL",
+            "GOOGL",
+            "MMM",
+            "MCD"
+        ],
+        "stocks_weights": [
+            0.074,
+            0.054,
+            0.168,
+            0.078,
+            0.142,
+            0.114,
+            0.103,
+            0.16,
+            0.107
+        ],
+        "initial_investment": 91248.43,
+        "time": 80,
+        "start_date": "2023-12-11"
+    },
+    {
+        "stocks_list": [
+            "AEO",
+            "UL",
+            "CROX"
+        ],
+        "stocks_weights": [
+            0.2950000000000001,
+            0.249,
+            0.456
+        ],
+        "initial_investment": 68801.85,
+        "time": 91,
+        "start_date": "2024-03-09"
+    },
+    {
+        "stocks_list": [
+            "TM",
+            "SHOP",
+            "CMG",
+            "HLT",
+            "TSLA",
+            "NKE",
+            "UBSFY"
+        ],
+        "stocks_weights": [
+            0.204,
+            0.107,
+            0.219,
+            0.099,
+            0.07,
+            0.196,
+            0.105
+        ],
+        "initial_investment": 91261.86,
+        "time": 52,
+        "start_date": "2024-05-26"
+    },
+    {
+        "stocks_list": [
+            "CL",
+            "LVMUY",
+            "COST",
+            "PMMAF",
+            "TGT",
+            "AMZN",
+            "SHOP",
+            "HD",
+            "JNJ",
+            "FL"
+        ],
+        "stocks_weights": [
+            0.05000000000000011,
+            0.118,
+            0.049,
+            0.143,
+            0.134,
+            0.079,
+            0.106,
+            0.148,
+            0.124,
+            0.049
+        ],
+        "initial_investment": 11425.75,
+        "time": 27,
+        "start_date": "2024-07-17"
+    },
+    {
+        "stocks_list": [
+            "UBSFY",
+            "AAPL",
+            "TM",
+            "TSLA",
+            "ADDYY",
+            "UL"
+        ],
+        "stocks_weights": [
+            0.142,
+            0.137,
+            0.315,
+            0.178,
+            0.165,
+            0.063
+        ],
+        "initial_investment": 87942.72,
+        "time": 88,
+        "start_date": "2023-06-28"
+    },
+    {
+        "stocks_list": [
+            "CRM",
+            "NFLX",
+            "POAHY",
+            "CL",
+            "AMD"
+        ],
+        "stocks_weights": [
+            0.352,
+            0.219,
+            0.099,
+            0.243,
+            0.087
+        ],
+        "initial_investment": 83442.8,
+        "time": 17,
+        "start_date": "2023-08-19"
+    },
+    {
+        "stocks_list": [
+            "NKE",
+            "AMZN",
+            "AMD"
+        ],
+        "stocks_weights": [
+            0.276,
+            0.46,
+            0.264
+        ],
+        "initial_investment": 56421.7,
+        "time": 35,
+        "start_date": "2023-07-11"
+    },
+    {
+        "stocks_list": [
+            "DIS",
+            "CRM",
+            "NTDOY",
+            "COST"
+        ],
+        "stocks_weights": [
+            0.205,
+            0.242,
+            0.278,
+            0.275
+        ],
+        "initial_investment": 47762.86,
+        "time": 34,
+        "start_date": "2023-03-18"
+    },
+    {
+        "stocks_list": [
+            "TGT",
+            "PHG",
+            "KO",
+            "GOOGL"
+        ],
+        "stocks_weights": [
+            0.407,
+            0.194,
+            0.185,
+            0.214
+        ],
+        "initial_investment": 30658.6,
+        "time": 40,
+        "start_date": "2023-10-07"
+    },
+    {
+        "stocks_list": [
+            "CRM",
+            "FDX",
+            "CMG"
+        ],
+        "stocks_weights": [
+            0.351,
+            0.405,
+            0.244
+        ],
+        "initial_investment": 37851.77,
+        "time": 66,
+        "start_date": "2024-03-10"
+    },
+    {
+        "stocks_list": [
+            "HLT",
+            "MAR",
+            "JNJ"
+        ],
+        "stocks_weights": [
+            0.1190000000000001,
+            0.437,
+            0.444
+        ],
+        "initial_investment": 80011.25,
+        "time": 40,
+        "start_date": "2023-09-18"
+    },
+    {
+        "stocks_list": [
+            "AEO",
+            "MSFT",
+            "CRM",
+            "LOGI",
+            "JNJ",
+            "GOOGL",
+            "LUV",
+            "DAL",
+            "MA"
+        ],
+        "stocks_weights": [
+            0.1030000000000001,
+            0.047,
+            0.1,
+            0.148,
+            0.156,
+            0.173,
+            0.049,
+            0.201,
+            0.023
+        ],
+        "initial_investment": 52999.22,
+        "time": 20,
+        "start_date": "2024-03-03"
+    },
+    {
+        "stocks_list": [
+            "MMM",
+            "PHG",
+            "UBSFY",
+            "FDX",
+            "NKE",
+            "CL",
+            "TGT",
+            "JWN",
+            "BAMXF",
+            "DIS"
+        ],
+        "stocks_weights": [
+            0.177,
+            0.064,
+            0.134,
+            0.155,
+            0.038,
+            0.134,
+            0.035,
+            0.031,
+            0.073,
+            0.159
+        ],
+        "initial_investment": 81320.89,
+        "time": 97,
+        "start_date": "2023-12-20"
+    },
+    {
+        "stocks_list": [
+            "LOGI",
+            "FL",
+            "AAPL",
+            "MA",
+            "CL",
+            "NKE"
+        ],
+        "stocks_weights": [
+            0.2150000000000001,
+            0.236,
+            0.124,
+            0.17,
+            0.13,
+            0.125
+        ],
+        "initial_investment": 71087.85,
+        "time": 84,
+        "start_date": "2024-06-30"
+    },
+    {
+        "stocks_list": [
+            "MAR",
+            "AMD",
+            "KO",
+            "AEO",
+            "LVMUY",
+            "CMG",
+            "CRM",
+            "TM"
+        ],
+        "stocks_weights": [
+            0.1,
+            0.13,
+            0.159,
+            0.026,
+            0.092,
+            0.185,
+            0.169,
+            0.139
+        ],
+        "initial_investment": 1526.5,
+        "time": 30,
+        "start_date": "2023-07-20"
+    },
+    {
+        "stocks_list": [
+            "FDX",
+            "NTDOY",
+            "MMM",
+            "LUV",
+            "CL"
+        ],
+        "stocks_weights": [
+            0.335,
+            0.138,
+            0.068,
+            0.261,
+            0.198
+        ],
+        "initial_investment": 15967.92,
+        "time": 25,
+        "start_date": "2023-10-17"
+    },
+    {
+        "stocks_list": [
+            "AAPL",
+            "GOOGL",
+            "AXP",
+            "AMD",
+            "CRM",
+            "CL",
+            "CROX",
+            "TSLA",
+            "NVDA",
+            "NKE"
+        ],
+        "stocks_weights": [
+            0.028,
+            0.118,
+            0.024,
+            0.126,
+            0.153,
+            0.079,
+            0.19,
+            0.13,
+            0.116,
+            0.036
+        ],
+        "initial_investment": 43965.6,
+        "time": 6,
+        "start_date": "2024-01-26"
+    },
+    {
+        "stocks_list": [
+            "NFLX",
+            "V",
+            "CL",
+            "FDX"
+        ],
+        "stocks_weights": [
+            0.137,
+            0.156,
+            0.376,
+            0.331
+        ],
+        "initial_investment": 25521.34,
+        "time": 79,
+        "start_date": "2024-03-30"
+    },
+    {
+        "stocks_list": [
+            "TGT",
+            "SHOP",
+            "DIS",
+            "POAHY",
+            "GOOGL",
+            "PHG",
+            "NKE",
+            "DAL",
+            "MCD",
+            "FL"
+        ],
+        "stocks_weights": [
+            0.032,
+            0.204,
+            0.039,
+            0.219,
+            0.036,
+            0.122,
+            0.112,
+            0.11,
+            0.091,
+            0.035
+        ],
+        "initial_investment": 54730.84,
+        "time": 77,
+        "start_date": "2024-04-04"
+    },
+    {
+        "stocks_list": [
+            "MMM",
+            "HLT",
+            "SHOP"
+        ],
+        "stocks_weights": [
+            0.418,
+            0.162,
+            0.42
+        ],
+        "initial_investment": 35963.14,
+        "time": 3,
+        "start_date": "2024-11-21"
+    },
+    {
+        "stocks_list": [
+            "FDX",
+            "MA",
+            "MAR"
+        ],
+        "stocks_weights": [
+            0.371,
+            0.18,
+            0.449
+        ],
+        "initial_investment": 97494.48,
+        "time": 28,
+        "start_date": "2024-09-13"
+    },
+    {
+        "stocks_list": [
+            "POAHY",
+            "UBSFY",
+            "TM"
+        ],
+        "stocks_weights": [
+            0.311,
+            0.32,
+            0.369
+        ],
+        "initial_investment": 34985.52,
+        "time": 59,
+        "start_date": "2023-08-08"
+    },
+    {
+        "stocks_list": [
+            "TM",
+            "TSLA",
+            "V",
+            "LUV"
+        ],
+        "stocks_weights": [
+            0.122,
+            0.38,
+            0.336,
+            0.162
+        ],
+        "initial_investment": 52641.8,
+        "time": 83,
+        "start_date": "2023-11-14"
+    },
+    {
+        "stocks_list": [
+            "CSCO",
+            "FL",
+            "CMG",
+            "COST",
+            "MA",
+            "HSY",
+            "MCD"
+        ],
+        "stocks_weights": [
+            0.2219999999999999,
+            0.051,
+            0.194,
+            0.05,
+            0.075,
+            0.208,
+            0.2
+        ],
+        "initial_investment": 68618.47,
+        "time": 58,
+        "start_date": "2024-06-29"
     }
 ]
