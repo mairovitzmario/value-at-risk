@@ -50,6 +50,12 @@ async def get_var(request_portofolio: PortofolioVaRModel):
     response_dict["historical"] = var.calculate_historical_var()
     response_dict["parametric"] = var.calculate_parametric_var()
     response_dict["monte_carlo"] = var.calculate_monte_carlo_var()
+    response_dict["lstm"] = var.calculate_lstm_var()
+
+    print(response_dict["lstm"]["absolute"])
+    print(response_dict["parametric"]["absolute"])
+
+    print(response_dict)
 
     return response_dict
 

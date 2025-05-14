@@ -34,6 +34,9 @@ function ResultsModal({ payload, opened, close }) {
             <Skeleton height={'2rem'} mt={6} width='45%' radius="lg" />
             <Skeleton height={12} mt={6} width='52%' radius="lg" />
             <Space h='xl' />
+            <Skeleton height={'2rem'} mt={6} width='45%' radius="lg" />
+            <Skeleton height={12} mt={6} width='52%' radius="lg" />
+            <Space h='xl' />
             <Skeleton height={'2rem'} mt={6} width='50%' radius="lg" />
             <Skeleton height={12} mt={6} width='52%' radius="lg" />
             <Space h='xl' />
@@ -47,6 +50,15 @@ function ResultsModal({ payload, opened, close }) {
     const SuccessModal = () => (
         <>
             <Space h='md' />
+
+
+            <Title order={2} size={'2rem'}>LSTM VaR</Title>
+            <Text>
+                {`${formatAbsoluteVaR(results.lstm.absolute)} or ${formatRelativeVaR(results.lstm.relative)} of your initial portfolio`}
+            </Text>
+
+            <Space h='xl' />
+
             <Title order={2} size={'2rem'}>Historical VaR</Title>
             <Text>
                 {`${formatAbsoluteVaR(results.historical.absolute)} or ${formatRelativeVaR(results.historical.relative)} of your initial portfolio`}
@@ -63,6 +75,7 @@ function ResultsModal({ payload, opened, close }) {
             <Text>
                 {`${formatAbsoluteVaR(results.monte_carlo.absolute)} or ${formatRelativeVaR(results.monte_carlo.relative)} of your initial portfolio`}
             </Text>
+
             <Space h='md' />
         </>
     )

@@ -1,5 +1,7 @@
 import torch
 import torch.nn as nn
+import datetime as dt
+import numpy as np
 
 
 class LSTMModel(nn.Module):
@@ -28,3 +30,23 @@ class LSTMModel(nn.Module):
         output = self.fc2(hidden_out)
 
         return output
+
+
+def prepare_input_data(returns, forecast_start_date, lookback_period=30):
+    returns_array = (
+        returns.loc[
+            forecast_start_date
+            - dt.timedelta(days=(lookback_period * 2)) : forecast_start_date
+        ]
+        .tail(lookback_period)
+        .values
+    )
+    return torch.tensor(returns_array, dtype=torch.float32).reshape(
+        1, lookback_period, 1
+    )
+
+
+def enable_dropout(model):
+    for m in model.modules():
+        if isinstance(m, nn.Dropout):
+            m.train()

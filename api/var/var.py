@@ -3,8 +3,10 @@ import numpy as np
 import datetime as dt
 import yfinance as yf
 from scipy.stats import norm, t
+import torch
 
 from var.portofolio_data import PortofolioData
+from var.model import LSTMModel, prepare_input_data, enable_dropout
 
 # from portofolio_data import PortofolioData
 
@@ -75,16 +77,66 @@ class VaR:
             "absolute": absolute_mc_var,
         }
 
+    def calculate_lstm_var(self):
+
+        forecast_start_date = dt.datetime.now()
+
+        model = LSTMModel()
+        model.load_state_dict(
+            torch.load("var/lstm_model.pth", map_location=torch.device("cpu"))
+        )
+
+        actual_data, _, _ = self.portofolio.get_data(
+            start_date=forecast_start_date - dt.timedelta(days=200),
+            end_date=forecast_start_date + dt.timedelta(days=20),
+        )
+        returns = actual_data["portofolio"]
+
+        base_input = prepare_input_data(returns, forecast_start_date)
+        device = next(model.parameters()).device
+        base_input = base_input.to(device)
+
+        model.eval()
+        enable_dropout(model)
+
+        base_std = base_input.std().item()
+        noise_std = base_std * np.log(1 / (1 - self.confidence_level))
+
+        with torch.no_grad():
+            predictions = torch.stack(
+                [
+                    model(base_input + torch.randn_like(base_input) * noise_std)
+                    for _ in range(1000)
+                ]
+            )
+
+        predictions = predictions.squeeze().cpu().numpy()
+        var = np.percentile(predictions, 100 * (1 - self.confidence_level))
+
+        relative_lstm_var = -var * np.sqrt(self.portofolio.Time)
+        absolute_lstm_var = self.portofolio.initial_investment * relative_lstm_var
+
+        print(
+            f"Relative LSTM VaR: {relative_lstm_var}, Absolute LSTM VaR: {absolute_lstm_var}"
+        )
+
+        return {
+            "relative": np.float64(relative_lstm_var),
+            "absolute": np.float64(absolute_lstm_var),
+        }
+
     def __str__(self):
         historical_var = self.calculate_historical_var()
         parametric_var = self.calculate_parametric_var()
         monte_carlo_var = self.calculate_monte_carlo_var()
+        lstm_var = self.calculate_lstm_var()
 
         txt = "Value at Risk (VaR) Analysis:\n"
         txt += f"Confidence Level: {self.confidence_level * 100}%\n"
         txt += f"Historical VaR: {historical_var}\n"
         txt += f"Parametric VaR: {parametric_var}\n"
         txt += f"Monte Carlo VaR: {monte_carlo_var}\n"
+        txt += f"LSTM VaR: {lstm_var}\n"
         return txt
 
 
