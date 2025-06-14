@@ -80,12 +80,6 @@ function ResultsModal({ payload, opened, close }) {
         </>
     )
 
-    const ErrorModal = () => (
-        <>
-
-        </>
-
-    )
 
     return (
         <>

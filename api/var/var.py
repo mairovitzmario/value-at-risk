@@ -100,7 +100,7 @@ class VaR:
         enable_dropout(model)
 
         base_std = base_input.std().item()
-        noise_std = base_std * np.log(1 / (1 - self.confidence_level))
+        noise_std = base_std * 4
 
         with torch.no_grad():
             predictions = torch.stack(

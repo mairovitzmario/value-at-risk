@@ -12,6 +12,9 @@ import { useViewportSize } from '@mantine/hooks';
 import { notifications } from '@mantine/notifications';
 import { useDisclosure } from '@mantine/hooks';
 
+import LightModeIcon from '@mui/icons-material/LightMode';
+import DarkModeIcon from '@mui/icons-material/DarkMode';
+
 import DateRangeIcon from '@mui/icons-material/DateRange';
 
 import StocksForm from './components/StocksForm/StocksForm';
@@ -37,6 +40,12 @@ function App() {
 
   const { width } = useViewportSize();
 
+  const [colorScheme, setColorScheme] = useState('light');
+
+  const toggleColorScheme = () => {
+    setColorScheme((current) => (current === 'light' ? 'dark' : 'light'));
+  };
+
   const onFormSubmit = () => {
     console.log(stocks)
     const isFormValid = validateMainForm(stocks);
@@ -55,8 +64,27 @@ function App() {
 
 
   return (
-    <MantineProvider theme={{ colorScheme: 'dark' }} forceColorScheme='dark' withGlobalStyles withNormalizeCSS>
+    <MantineProvider theme={{ colorScheme }}
+      forceColorScheme={colorScheme} withGlobalStyles withNormalizeCSS>
       < Notifications />
+
+
+      <Button
+        variant="default"
+        size="sm"
+        onClick={toggleColorScheme}
+        style={{
+          border: 'none', outline: 'none', boxShadow: 'none', minWidth: '40px', padding: '6px', position: 'fixed',
+          backgroundColor: 'transparent',
+          top: 10,
+          right: 10,
+          zIndex: 1000,
+          cursor: 'pointer',
+        }}
+      >
+        {colorScheme === 'light' ? <DarkModeIcon /> : <LightModeIcon />}
+      </Button>
+
 
       <div className='wrapper'>
 

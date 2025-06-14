@@ -9,7 +9,7 @@ class PortofolioData:
     def __init__(self, stocks, weights, Time, initial_investment):
         self.stocks = stocks
         self.weights = np.array(weights)
-        self.Time = Time  # number of days over which the var is calculated
+        self.Time = Time
         self.initial_investment = initial_investment
         self.returns, self.mean_returns, self.cov_matrix = self.get_data()
 
